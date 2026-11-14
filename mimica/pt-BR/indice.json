@@ -4,16 +4,16 @@
   "idioma": "pt-BR",
   "categorias": [
     { "id": "familia", "nome": "Família" },
-    { "id": "criancas", "nome": "Crianças" }
+    { "id": "facil", "nome": "Fácil" }
   ],
   "baralhos": [
     {
       "id": "animais",
       "versao": 1,
       "titulo": "Animais",
-      "descricao": "Do cachorro ao ornitorrinco. Bom para começar e para jogar com crianças.",
+      "descricao": "Do cachorro ao ornitorrinco. Bom para começar.",
       "capa": "capas/animais.webp",
-      "categorias": ["familia", "criancas"],
+      "categorias": ["familia", "facil"],
       "preco": "gratis",
       "faixa": "livre",
       "itens": 12,
