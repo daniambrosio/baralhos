@@ -71,4 +71,15 @@ Lista usada pelo "nossos outros jogos" de cada app. O app esconde a si mesmo e o
 
 ## Publicação
 
-Arquivos estáticos num endereço fixo (GitHub Pages ou a VPS), a decidir. O endereço entra na configuração dos apps e não pode mudar depois do lançamento sem redirecionamento.
+Endereço fixo: `https://baralhos.odanigeek.co` (VPS, no ar desde 14/11/2026). Os caminhos são os mesmos deste repositório, por exemplo `https://baralhos.odanigeek.co/impostor/pt-BR/indice.json`. Esse endereço fica gravado nos apps e não pode mudar depois do lançamento sem redirecionamento.
+
+Para publicar:
+
+```bash
+~/projects/vps-ops/scripts/deploy-baralhos.sh
+```
+
+O script roda o validador e para se ele falhar, envia só o que é público (`jogos.json`, os `.json` de `impostor/` e `mimica/`, e `capas/*.webp`) e remove do servidor o que saiu daqui. Ele publica a pasta como está, mesmo sem commit.
+
+- Os `.json` ficam em cache por 5 minutos; as capas, por 24 horas. Para trocar uma capa com efeito imediato, publique com outro nome de arquivo.
+- Tipo novo de arquivo público (por exemplo `.png`) ou pasta de um jogo novo exige ajustar o script e o servidor: ver `~/projects/vps-ops/projects/baralhos/playbook.md`.

@@ -40,4 +40,5 @@ python3 ferramentas/validar.py   # confere índices, baralhos e capas
 - Modelo definido e validador escrito.
 - Um baralho de exemplo por jogo, com 12 itens cada, só para os apps terem o que ler.
 - Duas capas de exemplo (`classicos`, `animais`), desenhadas à mão em SVG no estilo de contorno; o `.svg` fica ao lado do `.webp`.
-- Faltam: os baralhos de verdade e suas capas, `es` e `en`, e escolher onde publicar (GitHub Pages ou a VPS).
+- Publicado em `https://baralhos.odanigeek.co`; publicar de novo com `~/projects/vps-ops/scripts/deploy-baralhos.sh` (detalhes no fim do `docs/MODELO.md`).
+- Faltam: os baralhos de verdade e suas capas, `es` e `en`.
