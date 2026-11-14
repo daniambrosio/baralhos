@@ -1,0 +1,18 @@
+{
+  "id": "classicos",
+  "versao": 1,
+  "itens": [
+    { "palavra": "praia", "parecida": "piscina" },
+    { "palavra": "pizza", "parecida": "lasanha" },
+    { "palavra": "cachorro", "parecida": "gato" },
+    { "palavra": "avião", "parecida": "helicóptero" },
+    { "palavra": "hospital", "parecida": "farmácia" },
+    { "palavra": "violão", "parecida": "guitarra" },
+    { "palavra": "futebol", "parecida": "vôlei" },
+    { "palavra": "cinema", "parecida": "teatro" },
+    { "palavra": "chuveiro", "parecida": "banheira" },
+    { "palavra": "padaria", "parecida": "mercado" },
+    { "palavra": "bicicleta", "parecida": "patinete" },
+    { "palavra": "sorvete", "parecida": "picolé" }
+  ]
+}

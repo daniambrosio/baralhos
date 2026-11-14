@@ -1,0 +1,19 @@
+{
+  "formato": 1,
+  "jogos": [
+    {
+      "id": "impostor",
+      "nome": { "pt-BR": "Impostor", "es": "Impostor", "en": "Impostor" },
+      "frase": { "pt-BR": "Todo mundo sabe a palavra, menos um.", "es": "", "en": "" },
+      "ios": "",
+      "android": ""
+    },
+    {
+      "id": "mimica",
+      "nome": { "pt-BR": "Mímica", "es": "Mímica", "en": "Charades" },
+      "frase": { "pt-BR": "Celular na testa, a turma faz a mímica, você adivinha.", "es": "", "en": "" },
+      "ios": "",
+      "android": ""
+    }
+  ]
+}

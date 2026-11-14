@@ -1,0 +1,25 @@
+{
+  "formato": 1,
+  "jogo": "impostor",
+  "idioma": "pt-BR",
+  "categorias": [
+    { "id": "familia", "nome": "Família" },
+    { "id": "brasil", "nome": "Brasil" },
+    { "id": "nostalgia", "nome": "Nostalgia" }
+  ],
+  "baralhos": [
+    {
+      "id": "classicos",
+      "versao": 1,
+      "titulo": "Clássicos",
+      "descricao": "Palavras do dia a dia que todo mundo conhece. O melhor baralho para a primeira partida.",
+      "capa": "capas/classicos.webp",
+      "categorias": ["familia"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 12,
+      "embutido": true,
+      "relacionados": []
+    }
+  ]
+}

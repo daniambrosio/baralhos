@@ -1,0 +1,18 @@
+{
+  "id": "animais",
+  "versao": 1,
+  "itens": [
+    { "texto": "girafa" },
+    { "texto": "pinguim" },
+    { "texto": "ornitorrinco" },
+    { "texto": "canguru" },
+    { "texto": "tatu" },
+    { "texto": "elefante" },
+    { "texto": "macaco" },
+    { "texto": "cobra" },
+    { "texto": "galinha" },
+    { "texto": "tubarão" },
+    { "texto": "preguiça" },
+    { "texto": "caranguejo" }
+  ]
+}
