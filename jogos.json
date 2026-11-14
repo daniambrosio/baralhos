@@ -10,7 +10,7 @@
     },
     {
       "id": "mimica",
-      "nome": { "pt-BR": "Mímica", "es": "Mímica", "en": "Charades" },
+      "nome": { "pt-BR": "Na Testa", "es": "", "en": "" },
       "frase": { "pt-BR": "Celular na testa, a turma faz a mímica, você adivinha.", "es": "", "en": "" },
       "ios": "",
       "android": ""
