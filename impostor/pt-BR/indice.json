@@ -23,6 +23,18 @@
       "itens": 12,
       "embutido": true,
       "relacionados": []
+    },
+    {
+      "id": "fim-de-ano",
+      "versao": 1,
+      "titulo": "Natal e Ano-Novo",
+      "descricao": "Ceia, amigo secreto, fogos e simpatia de virada. Para jogar com a família reunida no fim do ano.",
+      "capa": "capas/fim-de-ano.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 68,
+      "relacionados": []
     }
   ]
 }

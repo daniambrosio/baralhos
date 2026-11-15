@@ -23,6 +23,18 @@
       "itens": 12,
       "embutido": true,
       "relacionados": []
+    },
+    {
+      "id": "fim-de-ano",
+      "versao": 1,
+      "titulo": "Natal e Ano-Novo",
+      "descricao": "Do Papai Noel às sete ondas, passando pelo tio do pavê. Para a família inteira, da ceia à virada.",
+      "capa": "capas/fim-de-ano.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
     }
   ]
 }
