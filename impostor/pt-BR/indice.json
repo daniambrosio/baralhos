@@ -4,8 +4,11 @@
   "idioma": "pt-BR",
   "categorias": [
     { "id": "familia", "nome": "Família" },
+    { "id": "facil", "nome": "Fácil" },
     { "id": "brasil", "nome": "Brasil" },
-    { "id": "nostalgia", "nome": "Nostalgia" }
+    { "id": "nostalgia", "nome": "Nostalgia" },
+    { "id": "festa", "nome": "Festa" },
+    { "id": "temporada", "nome": "Temporada" }
   ],
   "baralhos": [
     {

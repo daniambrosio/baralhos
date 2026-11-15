@@ -29,7 +29,7 @@ python3 ferramentas/validar.py   # confere índices, baralhos e capas
 1. **Catálogos separados por jogo.** Um baralho do Impostor nunca é reaproveitado como arquivo na Mímica. O tema pode repetir; o arquivo não.
 2. **Cada idioma é um baralho próprio**, escrito para aquele público. Não é tradução linha a linha.
 3. **Capa sem texto.** O título vem do índice, no idioma do usuário. A mesma capa serve a todos os idiomas e jogos.
-4. **Sem marcas de terceiros** em título, descrição, capa ou itens que dependam delas (filmes, séries e personagens com dono). Tema genérico pode: "filmes de terror", não o nome de uma franquia.
+4. **Sem marcas de terceiros em título, descrição e capa.** O baralho se chama "Terror", não leva o nome de uma franquia. Dentro dos itens pode: um nome próprio solto (um personagem, um console, uma banda) é só uma palavra do jogo. O que não pode é um baralho inteiro de uma franquia só.
 5. **Nunca mude o `id` de um baralho publicado.** Os apps guardam o que foi baixado e desbloqueado por `id`. Para mudar o conteúdo, aumente `versao`.
 6. **`formato` só muda com quebra de compatibilidade.** Campo novo e opcional não muda o `formato`; os apps ignoram o que não conhecem.
 7. **Validador passando antes de publicar.**

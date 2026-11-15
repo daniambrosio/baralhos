@@ -36,7 +36,7 @@
 
 | Campo | Regra |
 |---|---|
-| `categorias` (do índice) | O `id` é fixo e igual em todos os idiomas. O `nome` é escrito em cada idioma. |
+| `categorias` (do índice) | O `id` é fixo e igual em todos os idiomas e nos dois jogos: `familia`, `facil`, `brasil`, `nostalgia`, `festa`, `temporada`. O `nome` é escrito em cada idioma. Categoria nova entra nos dois índices. |
 | `id` | Minúsculas, sem acento, com hífen. Nunca muda depois de publicado. |
 | `versao` | Inteiro. Aumenta a cada mudança no arquivo do baralho. |
 | `descricao` | Aparece ao escolher o baralho e na tela de desbloquear. |

@@ -4,14 +4,14 @@
     {
       "id": "impostor",
       "nome": { "pt-BR": "Impostor", "es": "Impostor", "en": "Impostor" },
-      "frase": { "pt-BR": "Todo mundo sabe a palavra, menos um.", "es": "", "en": "" },
+      "frase": { "pt-BR": "Todo mundo sabe a palavra, menos um.", "es": "Todos saben la palabra, menos uno.", "en": "Everyone knows the word except one." },
       "ios": "",
       "android": ""
     },
     {
       "id": "mimica",
-      "nome": { "pt-BR": "Na Testa", "es": "", "en": "" },
-      "frase": { "pt-BR": "Celular na testa, a turma faz a mímica, você adivinha.", "es": "", "en": "" },
+      "nome": { "pt-BR": "Na Testa", "es": "¡A la Frente!", "en": "Forehead!" },
+      "frase": { "pt-BR": "Celular na testa, a turma faz a mímica, você adivinha.", "es": "Celular en la frente, tus amigos actúan, tú adivinas.", "en": "Phone on your forehead, friends act it out, you guess." },
       "ios": "",
       "android": ""
     }

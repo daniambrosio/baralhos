@@ -8,6 +8,7 @@ CAMPOS = {"impostor": ("palavra", "parecida"), "mimica": ("texto",)}
 PRECOS = {"gratis", "pago", "avulso"}
 FAIXAS = {"livre", "adulto"}
 erros = []
+avisos = []
 
 def sem_acento(texto):
     t = unicodedata.normalize("NFD", str(texto).strip().lower())
@@ -15,6 +16,9 @@ def sem_acento(texto):
 
 def erro(onde, msg):
     erros.append(f"{onde}: {msg}")
+
+def aviso(onde, msg):
+    avisos.append(f"{onde}: {msg}")
 
 for jogo, campos in CAMPOS.items():
     for indice in sorted((RAIZ / jogo).glob("*/indice.json")):
@@ -77,8 +81,25 @@ for jogo, campos in CAMPOS.items():
             if solto.name != "indice.json" and solto.stem not in ids:
                 erro(solto, "arquivo de baralho que não está no índice")
 
+        # Avisos: não impedem a publicação, mas pedem uma olhada.
+        onde_item = {}
+        for b in dados.get("baralhos", []):
+            arq = pasta / f"{b.get('id')}.json"
+            if not arq.exists():
+                continue
+            for item in json.loads(arq.read_text(encoding="utf-8")).get("itens", []):
+                texto = str(item.get(campos[0], ""))
+                onde_item.setdefault(sem_acento(texto), []).append(b["id"])
+                if jogo == "mimica" and len(texto.split()) > 3:
+                    aviso(arq, f"mais de 3 palavras: {texto}")
+        for chave, baralhos in sorted(onde_item.items()):
+            if len(baralhos) > 1:
+                aviso(pasta, f"'{chave}' aparece em mais de um baralho: {', '.join(baralhos)}")
+
 json.loads((RAIZ / "jogos.json").read_text(encoding="utf-8"))
+if avisos:
+    print("Avisos:\n" + "\n".join(avisos))
 if erros:
-    print("\n".join(erros))
+    print("Erros:\n" + "\n".join(erros))
     sys.exit(1)
-print("Tudo certo.")
+print("Tudo certo." if not avisos else "Sem erros.")
