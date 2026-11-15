@@ -92,8 +92,9 @@ for jogo, campos in CAMPOS.items():
                 onde_item.setdefault(sem_acento(texto), []).append(b["id"])
                 if jogo == "mimica" and len(texto.split()) > 3:
                     aviso(arq, f"mais de 3 palavras: {texto}")
+        # Só o Impostor junta vários baralhos numa partida; no Na Testa repetir não atrapalha.
         for chave, baralhos in sorted(onde_item.items()):
-            if len(baralhos) > 1:
+            if jogo == "impostor" and len(baralhos) > 1:
                 aviso(pasta, f"'{chave}' aparece em mais de um baralho: {', '.join(baralhos)}")
 
 json.loads((RAIZ / "jogos.json").read_text(encoding="utf-8"))

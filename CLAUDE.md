@@ -13,7 +13,7 @@ capas/                 Imagens de capa, sem texto. Servem a todos os jogos e idi
 impostor/<idioma>/     indice.json + um arquivo por baralho.
 mimica/<idioma>/       indice.json + um arquivo por baralho.
 jogos.json             Lista dos jogos do estúdio, para o "nossos outros jogos".
-ferramentas/           validar.py
+ferramentas/           validar.py, capa.sh, formatar_indice.py
 ```
 
 Idiomas: `pt-BR`, `es`, `en`. Só `pt-BR` tem conteúdo por enquanto.
@@ -38,7 +38,8 @@ python3 ferramentas/validar.py   # confere índices, baralhos e capas
 ## Estado
 
 - Modelo definido e validador escrito.
-- Um baralho de exemplo por jogo, com 12 itens cada, só para os apps terem o que ler.
-- Duas capas de exemplo (`classicos`, `animais`), desenhadas à mão em SVG no estilo de contorno; o `.svg` fica ao lado do `.webp`.
+- PT-BR, Impostor: 4 grátis (Clássicos, Comidas, Lugares, Animais) e 1 pago (Natal e Ano-Novo). Na Testa: 4 grátis (Animais, Profissões, Esportes, Ações do dia a dia) e 1 pago (Natal e Ano-Novo).
+- Capas desenhadas à mão em SVG no estilo de contorno; o `.svg` fica ao lado do `.webp`. Gerar o `.webp` com `ferramentas/capa.sh <nome>`.
+- `ferramentas/formatar_indice.py` reescreve um índice no formato da casa depois de editado por script.
 - Publicado em `https://baralhos.odanigeek.co`; publicar de novo com `~/projects/vps-ops/scripts/deploy-baralhos.sh` (detalhes no fim do `docs/MODELO.md`).
-- Faltam: os baralhos de verdade e suas capas, `es` e `en`.
+- Faltam: 11 pagos por jogo em PT-BR (lista em discussão: Brasil raiz, Anos 90, Escola, Rolê, Carnaval, Terror...), e `es` e `en`.

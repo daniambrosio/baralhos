@@ -24,4 +24,4 @@ A mesma capa serve ao tema claro e ao escuro, porque tem fundo próprio.
 
 ## Estado
 
-Duas capas de exemplo prontas: `classicos` e `animais`, com o `.svg` de origem ao lado. São simples; servem de referência de traço para as próximas.
+Prontas: `classicos`, `animais`, `fim-de-ano`, `comidas`, `lugares`, `profissoes`, `esportes`, `acoes`. Para gerar o `.webp` a partir do `.svg`: `ferramentas/capa.sh <nome>` (usa o Chrome sem janela e o `cwebp`).
