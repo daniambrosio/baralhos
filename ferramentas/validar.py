@@ -11,8 +11,9 @@ erros = []
 avisos = []
 
 def sem_acento(texto):
-    t = unicodedata.normalize("NFD", str(texto).strip().lower())
-    return "".join(c for c in t if unicodedata.category(c) != "Mn")
+    # O ñ é letra própria no espanhol (año ≠ ano); os outros acentos são ignorados.
+    t = unicodedata.normalize("NFD", str(texto).strip().lower().replace("ñ", "\0"))
+    return "".join(c for c in t if unicodedata.category(c) != "Mn").replace("\0", "ñ")
 
 def erro(onde, msg):
     erros.append(f"{onde}: {msg}")
