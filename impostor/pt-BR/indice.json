@@ -74,6 +74,54 @@
       "faixa": "livre",
       "itens": 68,
       "relacionados": []
+    },
+    {
+      "id": "carnaval",
+      "versao": 1,
+      "titulo": "Carnaval",
+      "descricao": "Bloco, trio elétrico, abadá e apuração. Quem nunca pulou carnaval vai se entregar rapidinho.",
+      "capa": "capas/carnaval.webp",
+      "categorias": ["temporada", "festa", "brasil"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "anos-90",
+      "versao": 1,
+      "titulo": "Anos 90",
+      "descricao": "Tamagotchi, fita cassete, locadora e internet discada. Para quem lembra do barulho do modem.",
+      "capa": "capas/anos-90.webp",
+      "categorias": ["nostalgia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "terror",
+      "versao": 1,
+      "titulo": "Terror",
+      "descricao": "Vampiros, lendas urbanas, porão e sexta-feira 13. Melhor jogar com a luz acesa.",
+      "capa": "capas/terror.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "brasil-raiz",
+      "versao": 1,
+      "titulo": "Brasil Raiz",
+      "descricao": "Festa junina, folclore, Fusca e cafezinho. O Brasil que todo mundo reconhece.",
+      "capa": "capas/brasil-raiz.webp",
+      "categorias": ["brasil", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
     }
   ]
 }

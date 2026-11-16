@@ -38,8 +38,8 @@ python3 ferramentas/validar.py   # confere índices, baralhos e capas
 ## Estado
 
 - Modelo definido e validador escrito.
-- PT-BR, Impostor: 4 grátis (Clássicos, Comidas, Lugares, Animais) e 1 pago (Natal e Ano-Novo). Na Testa: 4 grátis (Animais, Profissões, Esportes, Ações do dia a dia) e 1 pago (Natal e Ano-Novo).
+- PT-BR, Impostor: 4 grátis (Clássicos, Comidas, Lugares, Animais) e 5 pagos (Natal e Ano-Novo, Carnaval, Anos 90, Terror, Brasil Raiz). Na Testa: 4 grátis (Animais, Profissões, Esportes, Ações do dia a dia) e os mesmos 5 pagos.
 - Capas desenhadas à mão em SVG no estilo de contorno; o `.svg` fica ao lado do `.webp`. Gerar o `.webp` com `ferramentas/capa.sh <nome>`.
 - `ferramentas/formatar_indice.py` reescreve um índice no formato da casa depois de editado por script.
 - Publicado em `https://baralhos.odanigeek.co`; publicar de novo com `~/projects/vps-ops/scripts/deploy-baralhos.sh` (detalhes no fim do `docs/MODELO.md`).
-- Faltam: 11 pagos por jogo em PT-BR (lista em discussão: Brasil raiz, Anos 90, Escola, Rolê, Carnaval, Terror...), e `es` e `en`.
+- Faltam: 7 pagos por jogo em PT-BR. Combinados: Escola, Rolê. Impostor: Coisas de casa, Tecnologia, Difícil, Profissões, Esportes. Na Testa: Comidas, Emoções e situações, Danças e ritmos, Expressões, Animais difíceis. Depois, `es` e `en`.

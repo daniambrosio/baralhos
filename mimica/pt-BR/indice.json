@@ -74,6 +74,54 @@
       "faixa": "livre",
       "itens": 90,
       "relacionados": []
+    },
+    {
+      "id": "carnaval",
+      "versao": 1,
+      "titulo": "Carnaval",
+      "descricao": "Samba no pé, porta-bandeira, guerra de espuma e chinelo arrebentado. Aquecimento para fevereiro.",
+      "capa": "capas/carnaval.webp",
+      "categorias": ["temporada", "festa", "brasil"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "anos-90",
+      "versao": 1,
+      "titulo": "Anos 90",
+      "descricao": "Assoprar o cartucho, dança da garrafa, Tamagotchi e Banheira do Gugu. Nostalgia pura.",
+      "capa": "capas/anos-90.webp",
+      "categorias": ["nostalgia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "terror",
+      "versao": 1,
+      "titulo": "Terror",
+      "descricao": "Zumbi, Chucky, porta rangendo e tropeçar fugindo. Os clichês do terror, em mímica.",
+      "capa": "capas/terror.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "brasil-raiz",
+      "versao": 1,
+      "titulo": "Brasil Raiz",
+      "descricao": "Quadrilha, Saci, soltar pipa e cachorro caramelo. O Brasil inteiro numa partida.",
+      "capa": "capas/brasil-raiz.webp",
+      "categorias": ["brasil", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
     }
   ]
 }
