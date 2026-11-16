@@ -43,4 +43,4 @@ python3 ferramentas/validar.py   # confere índices, baralhos e capas
 - `ferramentas/formatar_indice.py` reescreve um índice no formato da casa depois de editado por script.
 - Publicado em `https://baralhos.odanigeek.co`; publicar de novo com `~/projects/vps-ops/scripts/deploy-baralhos.sh` (detalhes no fim do `docs/MODELO.md`).
 - `es` e `en` escritos para o próprio público, não traduzidos: "Brasil Raiz" vira "De Nuestra Tierra" (tradições latino-americanas) e "Americana"; Anos 90, Natal, Carnaval e Expressões seguem a cultura de cada idioma. A categoria `brasil` se chama "Lo Nuestro" e "Hometown".
-- Falta: copiar os baralhos grátis (dos três idiomas) para dentro dos apps.
+- Falta, nos apps (não aqui): eles ainda não baixam nada e só leem cópias em `assets/baralhos/`. Precisam do download descrito em "Como os apps usam" no `docs/MODELO.md` (índice ao abrir, `versao`, baralhos e capas em cache, idioma do aparelho com volta para outro idioma) e de cópias embutidas dos grátis só como reserva para a primeira abertura sem internet.
