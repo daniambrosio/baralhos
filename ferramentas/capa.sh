@@ -12,6 +12,7 @@ for nome in "$@"; do
   printf '<html><body style="margin:0"><img src="file://%s" width="800" height="600" style="display:block"></body></html>' "$svg" > "$TMP/p.html"
   "$CHROME" --headless --disable-gpu --hide-scrollbars --allow-file-access-from-files \
     --window-size=800,600 --screenshot="$TMP/$nome.png" "file://$TMP/p.html" >/dev/null 2>&1
+  [ -s "$TMP/$nome.png" ] || { echo "o Chrome não gerou a imagem de $nome; rode de novo" >&2; exit 1; }
   cwebp -quiet -q 90 "$TMP/$nome.png" -o "$RAIZ/capas/$nome.webp"
   echo "capas/$nome.webp"
 done

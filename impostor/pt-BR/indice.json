@@ -122,6 +122,90 @@
       "faixa": "livre",
       "itens": 60,
       "relacionados": []
+    },
+    {
+      "id": "escola",
+      "versao": 1,
+      "titulo": "Escola",
+      "descricao": "Recreio, boletim, cola e reunião de pais. Todo mundo já passou por isso, cada um do seu jeito.",
+      "capa": "capas/escola.webp",
+      "categorias": ["familia", "nostalgia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "role",
+      "versao": 1,
+      "titulo": "Rolê",
+      "descricao": "Balada, churrasco na laje, karaokê e racha da conta. Para a turma que sai junto.",
+      "capa": "capas/role.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "casa",
+      "versao": 1,
+      "titulo": "Coisas de Casa",
+      "descricao": "Liquidificador, varal, rodo e pote de sorvete. O que tem em toda casa, e ninguém descreve igual.",
+      "capa": "capas/casa.webp",
+      "categorias": ["familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "tecnologia",
+      "versao": 1,
+      "titulo": "Tecnologia",
+      "descricao": "Wi-Fi, Pix, meme e áudio de cinco minutos. A vida no celular.",
+      "capa": "capas/tecnologia.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "dificil",
+      "versao": 1,
+      "titulo": "Difícil",
+      "descricao": "Saudade, ciúme, karma e déjà vu. Palavras abstratas para quem já jogou muito.",
+      "capa": "capas/dificil.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "profissoes",
+      "versao": 1,
+      "titulo": "Profissões",
+      "descricao": "Do dentista ao astrólogo. Cada um descreve um trabalho que nunca fez.",
+      "capa": "capas/profissoes.webp",
+      "categorias": ["familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "esportes",
+      "versao": 1,
+      "titulo": "Esportes",
+      "descricao": "Do vôlei ao VAR, do sumô ao pênalti. Para quem vive de esporte e para quem só finge.",
+      "capa": "capas/esportes.webp",
+      "categorias": ["familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
     }
   ]
 }

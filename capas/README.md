@@ -24,4 +24,4 @@ A mesma capa serve ao tema claro e ao escuro, porque tem fundo próprio.
 
 ## Estado
 
-Prontas: `classicos`, `animais`, `fim-de-ano`, `comidas`, `lugares`, `profissoes`, `esportes`, `acoes`, `carnaval`, `anos-90`, `terror`, `brasil-raiz`. Para gerar o `.webp` a partir do `.svg`: `ferramentas/capa.sh <nome>` (usa o Chrome sem janela e o `cwebp`).
+Prontas: `classicos`, `animais`, `fim-de-ano`, `comidas`, `lugares`, `profissoes`, `esportes`, `acoes`, `carnaval`, `anos-90`, `terror`, `brasil-raiz`, `escola`, `role`, `casa`, `tecnologia`, `dificil`, `emocoes`, `dancas`, `expressoes`, `animais-dificeis`. Para gerar o `.webp` a partir do `.svg`: `ferramentas/capa.sh <nome>` (usa o Chrome sem janela e o `cwebp`).

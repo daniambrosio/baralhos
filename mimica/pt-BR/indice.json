@@ -122,6 +122,90 @@
       "faixa": "livre",
       "itens": 90,
       "relacionados": []
+    },
+    {
+      "id": "escola",
+      "versao": 1,
+      "titulo": "Escola",
+      "descricao": "Colar na prova, aviãozinho de papel e unha no quadro. A escola inteira em mímica.",
+      "capa": "capas/escola.webp",
+      "categorias": ["familia", "nostalgia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "role",
+      "versao": 1,
+      "titulo": "Rolê",
+      "descricao": "Bomba na piscina, gritar truco e pegar o buquê. A turma reunida, em mímica.",
+      "capa": "capas/role.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "comidas",
+      "versao": 1,
+      "titulo": "Comidas",
+      "descricao": "Espaguete, sorvete derretendo e gelatina tremendo. Dá fome só de jogar.",
+      "capa": "capas/comidas.webp",
+      "categorias": ["familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "emocoes",
+      "versao": 1,
+      "titulo": "Emoções e Situações",
+      "descricao": "Com ciúme, zíper aberto, chuveiro gelado. Mais cara e corpo do que objeto.",
+      "capa": "capas/emocoes.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "dancas",
+      "versao": 1,
+      "titulo": "Danças e Ritmos",
+      "descricao": "Frevo, moonwalk, Macarena e sapateado. Prepare o espaço da sala.",
+      "capa": "capas/dancas.webp",
+      "categorias": ["festa", "brasil"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "expressoes",
+      "versao": 1,
+      "titulo": "Expressões",
+      "descricao": "Pagar mico, engolir sapo, chutar o balde. Imitar ao pé da letra é o que dá graça.",
+      "capa": "capas/expressoes.webp",
+      "categorias": ["brasil"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "animais-dificeis",
+      "versao": 1,
+      "titulo": "Animais Difíceis",
+      "descricao": "Axolote, narval, louva-a-deus e diabo-da-tasmânia. Para quem já zerou o baralho de animais.",
+      "capa": "capas/animais-dificeis.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
     }
   ]
 }
