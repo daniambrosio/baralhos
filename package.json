@@ -1,0 +1,56 @@
+{
+  "name": "baralhos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Download de baralhos para os jogos do estúdio (Impostor/Lorota e Mímica/Na Testa). Instalado pelos apps direto do GitHub.",
+  "main": "cliente/index.ts",
+  "types": "cliente/index.ts",
+  "files": [
+    "cliente/",
+    "!cliente/__tests__/"
+  ],
+  "peerDependencies": {
+    "expo-file-system": "*"
+  },
+  "peerDependenciesMeta": {
+    "expo-file-system": {
+      "optional": true
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "typecheck": "tsc --noEmit"
+  },
+  "jest": {
+    "testMatch": [
+      "<rootDir>/cliente/__tests__/**/*.test.ts"
+    ],
+    "transform": {
+      "^.+\\.ts$": [
+        "babel-jest",
+        {
+          "presets": [
+            [
+              "@babel/preset-env",
+              {
+                "targets": {
+                  "node": "current"
+                }
+              }
+            ],
+            "@babel/preset-typescript"
+          ]
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^8.1.2",
+    "@babel/preset-env": "^8.0.7",
+    "@babel/preset-typescript": "^8.0.7",
+    "@types/jest": "^30.0.0",
+    "babel-jest": "^30.5.2",
+    "jest": "^30.5.2",
+    "typescript": "^6.0.3"
+  }
+}

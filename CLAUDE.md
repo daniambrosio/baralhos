@@ -1,6 +1,6 @@
 # Baralhos
 
-Conteúdo dos jogos de festa do estúdio: os baralhos do Impostor e da Mímica, as capas e a lista de jogos para venda cruzada. Não tem app nem servidor: são arquivos estáticos publicados num endereço fixo, que os apps baixam.
+Conteúdo dos jogos de festa do estúdio: os baralhos do Impostor e da Mímica, as capas e a lista de jogos para venda cruzada. Não tem app nem servidor: são arquivos estáticos publicados num endereço fixo, que os apps baixam. Também guarda o `cliente/`, o pacote que os apps usam para baixar esses arquivos.
 
 - Modelo completo dos arquivos: `docs/MODELO.md`
 - Estilo das capas: `capas/README.md`
@@ -14,6 +14,7 @@ impostor/<idioma>/     indice.json + um arquivo por baralho.
 mimica/<idioma>/       indice.json + um arquivo por baralho.
 jogos.json             Lista dos jogos do estúdio, para o "nossos outros jogos".
 ferramentas/           validar.py, capa.sh, formatar_indice.py
+cliente/               Pacote de download usado pelos apps (TypeScript, com testes). Ver cliente/README.md.
 ```
 
 Idiomas: `pt-BR`, `es` (espanhol latino-americano neutro), `en` (inglês americano). Os três têm os mesmos 16 baralhos por jogo, com os mesmos `id`s e capas.
@@ -22,7 +23,10 @@ Idiomas: `pt-BR`, `es` (espanhol latino-americano neutro), `en` (inglês america
 
 ```bash
 python3 ferramentas/validar.py   # confere índices, baralhos e capas
+npm test && npm run typecheck    # testes e tipos do cliente/
 ```
+
+O `cliente/` é a única cópia do código de download (decisão do Daniel, 17/11/2026). Os apps instalam `github:daniambrosio/baralhos#vX.Y.Z`; mudança no `cliente/` vira tag nova e cada app sobe a versão no seu `package.json`. O repositório é público para o build na nuvem da Expo conseguir instalar.
 
 ## Regras (não quebrar)
 
@@ -43,4 +47,4 @@ python3 ferramentas/validar.py   # confere índices, baralhos e capas
 - `ferramentas/formatar_indice.py` reescreve um índice no formato da casa depois de editado por script.
 - Publicado em `https://baralhos.odanigeek.co`; publicar de novo com `~/projects/vps-ops/scripts/deploy-baralhos.sh` (detalhes no fim do `docs/MODELO.md`).
 - `es` e `en` escritos para o próprio público, não traduzidos: "Brasil Raiz" vira "De Nuestra Tierra" (tradições latino-americanas) e "Americana"; Anos 90, Natal, Carnaval e Expressões seguem a cultura de cada idioma. A categoria `brasil` se chama "Lo Nuestro" e "Hometown".
-- Falta, nos apps (não aqui): eles ainda não baixam nada e só leem cópias em `assets/baralhos/`. Precisam do download descrito em "Como os apps usam" no `docs/MODELO.md` (índice ao abrir, `versao`, baralhos e capas em cache, idioma do aparelho com volta para outro idioma) e de cópias embutidas dos grátis só como reserva para a primeira abertura sem internet.
+- Download nos apps: feito pelo `cliente/` deste repositório (índice ao abrir, `versao`, baralhos e capas em cache, idioma do aparelho), com cópias embutidas dos grátis só como reserva sem internet.
