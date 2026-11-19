@@ -26,7 +26,7 @@
     },
     {
       "id": "profissoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Profissões",
       "descricao": "Do dentista ao domador de leão. Todo mundo sabe imitar alguém trabalhando.",
       "capa": "capas/profissoes.webp",
@@ -77,7 +77,7 @@
     },
     {
       "id": "fim-de-ano",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Natal e Ano-Novo",
       "descricao": "Do Papai Noel às sete ondas, passando pelo tio do pavê. Para a família inteira, da ceia à virada.",
       "capa": "capas/fim-de-ano.webp",
@@ -89,7 +89,7 @@
     },
     {
       "id": "carnaval",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Carnaval",
       "descricao": "Samba no pé, porta-bandeira, guerra de espuma e chinelo arrebentado. Aquecimento para fevereiro.",
       "capa": "capas/carnaval.webp",
@@ -101,9 +101,9 @@
     },
     {
       "id": "anos-90",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Anos 90",
-      "descricao": "Assoprar o cartucho, dança da garrafa, Tamagotchi e Banheira do Gugu. Nostalgia pura.",
+      "descricao": "Assoprar o cartucho, rebobinar com caneta, Tamagotchi e Passa ou Repassa. Nostalgia pura.",
       "capa": "capas/anos-90.webp",
       "categorias": ["nostalgia"],
       "preco": "pago",
@@ -113,7 +113,7 @@
     },
     {
       "id": "terror",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Terror",
       "descricao": "Zumbi, Chucky, porta rangendo e tropeçar fugindo. Os clichês do terror, em mímica.",
       "capa": "capas/terror.webp",
@@ -125,7 +125,7 @@
     },
     {
       "id": "brasil-raiz",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Brasil Raiz",
       "descricao": "Quadrilha, Saci, soltar pipa e cachorro caramelo. O Brasil inteiro numa partida.",
       "capa": "capas/brasil-raiz.webp",
@@ -137,7 +137,7 @@
     },
     {
       "id": "escola",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Escola",
       "descricao": "Colar na prova, aviãozinho de papel e unha no quadro. A escola inteira em mímica.",
       "capa": "capas/escola.webp",
@@ -149,7 +149,7 @@
     },
     {
       "id": "role",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Rolê",
       "descricao": "Bomba na piscina, gritar truco e pegar o buquê. A turma reunida, em mímica.",
       "capa": "capas/role.webp",
@@ -173,7 +173,7 @@
     },
     {
       "id": "emocoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Emoções e Situações",
       "descricao": "Com ciúme, zíper aberto, chuveiro gelado. Mais cara e corpo do que objeto.",
       "capa": "capas/emocoes.webp",
@@ -185,7 +185,7 @@
     },
     {
       "id": "dancas",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Danças e Ritmos",
       "descricao": "Frevo, moonwalk, Macarena e sapateado. Prepare o espaço da sala.",
       "capa": "capas/dancas.webp",
@@ -197,7 +197,7 @@
     },
     {
       "id": "expressoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Expressões",
       "descricao": "Pagar mico, engolir sapo, chutar o balde. Imitar ao pé da letra é o que dá graça.",
       "capa": "capas/expressoes.webp",
@@ -209,7 +209,7 @@
     },
     {
       "id": "animais-dificeis",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Animais Difíceis",
       "descricao": "Axolote, narval, louva-a-deus e diabo-da-tasmânia. Para quem já zerou o baralho de animais.",
       "capa": "capas/animais-dificeis.webp",
@@ -233,7 +233,7 @@
     },
     {
       "id": "pascoa",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Páscoa",
       "descricao": "Caça aos ovos, orelhas de coelho, procissão e bigode de chocolate. Do almoço de domingo ao último bombom.",
       "capa": "capas/pascoa.webp",
@@ -245,7 +245,7 @@
     },
     {
       "id": "festa-junina",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Festa Junina",
       "descricao": "Olha a chuva, pau de sebo, maçã do amor e noivo fujão. Arrasta-pé na sala, sem precisar de fogueira.",
       "capa": "capas/festa-junina.webp",

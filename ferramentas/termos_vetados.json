@@ -1,0 +1,82 @@
+{
+  "_leia": [
+    "Lista usada por ferramentas/validar.py. Um termo daqui em título, descrição ou item é ERRO e trava a publicação.",
+    "A comparação ignora maiúsculas e acentos (menos o ñ) e casa palavras inteiras, em sequência: 'bar' não pega 'barba'.",
+    "sempre: vale para qualquer baralho, de qualquer faixa. livre: só para baralhos com faixa livre. so_mimica: só no Na Testa, onde o item é encenado.",
+    "todos: vale nos três idiomas.",
+    "A lista é um piso, não o critério. O critério está em docs/CONTEUDO.md. Achou um termo ruim que passou? Corrija o baralho e acrescente o termo aqui, no mesmo commit.",
+    "Na dúvida, o termo entra. Há palavra de sobra em cada idioma para não precisar de nenhuma destas."
+  ],
+  "sempre": {
+    "todos": {
+      "palavrão": ["wtf"],
+      "violência grave": ["suicide", "suicidio", "rape", "estupro", "violacion", "pedofilia", "pedophile", "terrorist", "terrorista", "school shooting", "massacre", "genocide", "genocidio", "holocausto", "holocaust", "nazi", "nazista", "hitler", "ku klux klan", "kkk", "escravo", "esclavo", "slave", "senzala", "lynching", "linchamento", "linchamiento"]
+    },
+    "pt-BR": {
+      "racismo e estereótipo étnico": ["cabelo ruim", "cabelo duro", "cabelo pixaim", "ovelha negra", "lista negra", "mercado negro", "magia negra", "humor negro", "inveja branca", "a coisa ta preta", "coisa de preto", "servico de preto", "denegrir", "mulata", "mulato", "crioulo", "crioula", "neguinho", "neguinha", "nega maluca", "da cor do pecado", "nao sou tuas negas", "samba do crioulo doido", "programa de indio", "indio", "tribo", "pele vermelha", "danca da chuva", "pintura de guerra", "judiar", "judiacao", "cigano", "cigana", "baianada", "rodar a baiana", "japa", "xing ling", "gringo", "macumba", "macumbeiro", "vodu", "boneco de vodu", "feito nas coxas", "criado-mudo", "esquimo"],
+      "capacitismo": ["retardado", "retardada", "mongol", "mongoloide", "aleijado", "aleijada", "debil mental", "surdo-mudo", "anao", "ana", "demente", "leproso", "joao sem braco", "maneta", "perneta", "caolho", "banguela", "dentuco", "dentuca", "gago", "vesgo", "quatro-olhos", "magrelo", "careca", "asilo de loucos", "hospicio", "louco de pedra"],
+      "sexismo e LGBTfobia": ["viado", "bicha", "bichinha", "boiola", "sapatao", "traveco", "mulherzinha", "mal-amada", "vagabunda", "vadia", "piriguete", "periguete", "gostosa", "loira burra", "sogra", "dona de casa desesperada", "mulher ao volante", "coisa de mulher", "coisa de homem", "solteirona", "encalhada", "corno", "chifrudo"],
+      "religião como piada": ["exorcismo", "exorcista", "agua benta", "hostia", "malhacao do judas", "judas", "possessao", "possuido", "encosto", "pomba gira", "capeta", "satanas"],
+      "palavrão": ["porra", "merda", "caralho", "bosta", "foda", "foder", "fodeu", "cu", "cacete", "puta", "puto", "putaria", "babaca", "otario", "idiota", "imbecil"]
+    },
+    "es": {
+      "racismo e estereótipo étnico": ["oveja negra", "lista negra", "mercado negro", "magia negra", "humor negro", "trabajar como negro", "merienda de negros", "negrito", "negrita", "indio", "hacer el indio", "tribu", "piel roja", "baile de lluvia", "danza de la lluvia", "pintura de guerra", "gitano", "gitana", "gitanada", "cuento chino", "engañar como a un chino", "chinito", "sudaca", "naco", "naca", "judiada", "gringo", "gringa", "vudu", "muñeco vudú", "esquimal", "cholo", "chola"],
+      "capacitismo": ["retrasado", "retrasada", "mongolico", "mongol", "subnormal", "tarado", "invalido", "lisiado", "enano", "enana", "sordomudo", "manco", "tuerto", "cojo", "bizco", "tartamudo", "flacucho", "manicomio", "loquero"],
+      "sexismo e LGBTfobia": ["maricon", "marica", "joto", "puto", "tortillera", "travesti", "solterona", "quedada", "suegra", "vecina chismosa", "vieja chismosa", "rubia tonta", "mujer al volante", "mandilon", "cornudo", "zorra"],
+      "religião como piada": ["exorcismo", "exorcista", "agua bendita", "hostia", "quema de judas", "judas", "posesion", "poseido", "poseida", "satanas", "brujeria", "limpia con huevo", "limpia de huevo", "ofrenda a pachamama"],
+      "palavrão": ["mierda", "puta", "joder", "coño", "carajo", "pendejo", "pendeja", "cabron", "chingar", "chingada", "verga", "culo", "huevon", "pinche", "bolas", "cojones", "idiota", "imbecil", "estupido", "estupida", "pelotudo", "boludo", "gilipollas"]
+    },
+    "en": {
+      "racismo e estereótipo étnico": ["irish goodbye", "irish exit", "french exit", "dutch courage", "indian giver", "indian burn", "indian summer", "indian style", "rain dance", "war paint", "war cry", "powwow", "pow wow", "spirit animal", "totem pole", "peace pipe", "teepee", "tipi", "tribe", "off the reservation", "redskin", "eskimo", "gypsy", "gyp", "gypped", "oriental", "black sheep", "blacklist", "black market", "black magic", "voodoo", "savage", "peanut gallery", "paddy wagon", "sold down the river", "long time no see", "no can do", "uppity", "thug", "ghetto", "hillbilly", "redneck", "white trash", "trailer trash", "trailer park", "illegal alien", "chinese fire drill", "chinese whispers", "mexican standoff", "egyptian walk", "cossack squat", "hobo", "bum"],
+      "capacitismo": ["retard", "retarded", "spaz", "cripple", "crippled", "midget", "dwarf", "psycho", "lunatic", "loony", "nuthouse", "insane asylum", "deaf-mute", "dumb blonde", "four eyes", "fatso", "fatty", "baldy", "tone deaf", "blind as a bat"],
+      "sexismo e LGBTfobia": ["fag", "faggot", "dyke", "tranny", "sissy", "man up", "like a girl", "drama queen", "bimbo", "old maid", "spinster", "gold digger", "ball and chain", "nagging wife", "mother-in-law", "woman driver", "bridezilla", "catfight", "man cave", "slut", "whore", "hooker"],
+      "religião como piada": ["exorcism", "exorcist", "possessed", "possession", "holy water", "communion wafer", "satan", "devil worship", "witch doctor", "cult"],
+      "palavrão": ["fuck", "shit", "bitch", "ass", "asshole", "damn", "crap", "bastard", "piss", "dick", "jerk", "idiot", "moron", "stupid", "dumbass", "screw you", "sucks"]
+    }
+  },
+  "livre": {
+    "todos": {
+      "álcool": ["happy hour", "open bar", "bartender", "barman", "sommelier", "tequila", "vodka", "whisky", "whiskey", "gin tonica", "beer pong", "pub"],
+      "drogas e fumo": ["vape", "bong", "narguile", "hookah", "cocaina", "cocaine", "lsd", "ecstasy"],
+      "sexo": ["sexy", "strip", "striptease", "stripper", "pole dance", "twerk", "twerking", "lingerie", "playboy", "onlyfans", "tinder"]
+    },
+    "pt-BR": {
+      "álcool": ["cerveja", "cervejada", "chope", "chopp", "vinho", "champanhe", "espumante", "sidra", "cachaca", "caipirinha", "quentao", "uisque", "vodca", "licor", "drinque", "coquetel", "bebado", "bebada", "bebum", "porre", "ressaca", "saideira", "boteco", "botequim", "barzinho", "bar", "adega", "cervejaria", "esquenta"],
+      "drogas e fumo": ["maconha", "baseado", "cigarro", "charuto", "fumar", "fumando", "fumante", "droga", "drogas", "chapado"],
+      "sexo": ["banheira do gugu", "danca da garrafa", "boquinha da garrafa", "camiseta molhada", "nu", "nua", "sexo", "sensual", "sutia", "calcinha", "motel", "camisinha", "tesao", "beijo de lingua", "pegacao", "ficante", "amante", "safado", "safada", "bunda", "peitos"]
+    },
+    "es": {
+      "álcool": ["cerveza", "chela", "vino", "champaña", "champan", "sidra", "mezcal", "ron", "pisco", "aguardiente", "pulque", "licor", "trago", "tragos", "chupito", "borracho", "borracha", "resaca", "cruda", "cantina", "cantinero", "bar", "hora feliz", "precopeo", "previa"],
+      "drogas e fumo": ["marihuana", "porro", "cigarro", "cigarrillo", "fumar", "fumando", "droga", "drogas"],
+      "sexo": ["sexo", "desnudo", "desnuda", "sensual", "perreo", "motel", "condon", "calzon", "calzones", "brasier", "amante", "beso con lengua", "nalgas", "trasero", "caderas de shakira"]
+    },
+    "en": {
+      "álcool": ["beer", "wine", "champagne", "rum", "gin", "cocktail", "cocktails", "margarita", "martini", "booze", "drunk", "tipsy", "wasted", "hangover", "hungover", "last call", "bar crawl", "pub crawl", "sports bar", "rooftop bar", "arcade bar", "dive bar", "wine tasting", "keg", "brewery", "winery", "designated driver", "never have i ever", "drinking game", "pregame"],
+      "drogas e fumo": ["smoking weed", "marijuana", "cigarette", "cigar", "vaping", "smoking", "drugs", "stoned", "high as a kite"],
+      "sexo": ["sex", "naked", "nude", "lap dance", "chair dance", "wet t-shirt", "condom", "make out", "french kiss", "skinny dipping", "walk of shame", "one-night stand", "booty", "booty call", "hookup", "hook up", "friends with benefits", "sit on lap", "mistress"]
+    }
+  },
+  "so_mimica": {
+    "pt-BR": {
+      "rito ou oração encenados": ["rezar", "rezar o terco", "orar", "sinal da cruz", "ajoelhar", "comungar", "comunhao", "batizar", "batismo", "benzer", "benzedeira", "santa ceia", "ultima ceia", "lava-pes", "via-sacra", "crucificacao", "confessar", "confissao", "incorporar", "passe espirita", "oferenda"]
+    },
+    "es": {
+      "rito ou oração encenados": ["rezar", "rezar el rosario", "orar", "persignarse", "arrodillarse", "comulgar", "comunion", "primera comunion", "bautizar", "bautizo", "bendecir", "ultima cena", "lavar los pies", "lavatorio de pies", "via crucis", "crucifixion", "confesarse", "confesion", "misa de domingo", "ofrenda", "curandero"]
+    },
+    "en": {
+      "rito ou oração encenados": ["pray", "prayer", "sign of the cross", "kneel", "communion", "baptism", "baptize", "bless", "last supper", "foot washing", "stations of the cross", "crucifixion", "confession", "seance", "sacrifice"]
+    }
+  },
+  "grafia": {
+    "_leia": "Forma que não usamos : forma da casa. Aqui o acento conta.",
+    "pt-BR": { "sílvio santos": "Silvio Santos", "papai-noel": "Papai Noel", "karaoke": "karaokê", "hamburger": "hambúrguer", "shampoo": "xampu" },
+    "es": { "selfi": "selfie", "basquetbol": "básquetbol", "baloncesto": "básquetbol", "espaguetis": "espagueti", "box": "boxeo", "skate": "patineta", "ordenador": "computadora", "móvil": "celular" },
+    "en": { "ping-pong": "ping pong", "cinema": "movie theater", "football pitch": "soccer field" }
+  },
+  "maiusculas": {
+    "_leia": "Palavras que só existem com inicial maiúscula em item, título e descrição.",
+    "pt-BR": ["natal", "páscoa", "noel", "halloween"],
+    "es": ["navidad", "pascua", "halloween", "nochebuena"],
+    "en": ["christmas", "easter", "halloween", "santa", "hanukkah", "thanksgiving"]
+  }
+}

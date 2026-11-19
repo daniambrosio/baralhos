@@ -1,6 +1,6 @@
 {
   "id": "comidas",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "tacos" },
     { "texto": "burrito" },
@@ -26,7 +26,7 @@
     { "texto": "bandeja paisa" },
     { "texto": "comer chile" },
     { "texto": "chupar limón" },
-    { "texto": "espaguetis" },
+    { "texto": "espagueti" },
     { "texto": "pizza" },
     { "texto": "hamburguesa" },
     { "texto": "hot dog" },

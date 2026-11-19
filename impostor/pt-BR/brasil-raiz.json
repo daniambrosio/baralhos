@@ -1,6 +1,6 @@
 {
   "id": "brasil-raiz",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "festa junina", "parecida": "festa à fantasia" },
     { "palavra": "quadrilha", "parecida": "ciranda" },
@@ -10,7 +10,7 @@
     { "palavra": "casamento caipira", "parecida": "formatura" },
     { "palavra": "chapéu de palha", "parecida": "boné" },
     { "palavra": "bandeirinha", "parecida": "varal" },
-    { "palavra": "quentão", "parecida": "chocolate quente" },
+    { "palavra": "bolo de milho", "parecida": "bolo de laranja" },
     { "palavra": "canjica", "parecida": "mingau" },
     { "palavra": "pé de moleque", "parecida": "rapadura" },
     { "palavra": "milho cozido", "parecida": "pipoca" },
@@ -58,7 +58,7 @@
     { "palavra": "santinho", "parecida": "figurinha" },
     { "palavra": "quermesse", "parecida": "feira de ciências" },
     { "palavra": "romaria", "parecida": "excursão" },
-    { "palavra": "benzedeira", "parecida": "farmacêutica" },
+    { "palavra": "benzedeira", "parecida": "curandeira" },
     { "palavra": "cachorro caramelo", "parecida": "vira-lata de desenho" },
     { "palavra": "sanfona", "parecida": "teclado" },
     { "palavra": "cafezinho", "parecida": "chá da tarde" }

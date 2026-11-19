@@ -1,6 +1,6 @@
 {
   "id": "carnaval",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "comparsa", "parecida": "marcha de protesta" },
     { "palavra": "carroza", "parecida": "pastel de bodas" },
@@ -26,7 +26,7 @@
     { "palavra": "serpentina", "parecida": "papel de baño" },
     { "palavra": "espuma de carnaval", "parecida": "extintor" },
     { "palavra": "globos de agua", "parecida": "pistola de agua" },
-    { "palavra": "pintura facial", "parecida": "pintura de guerra" },
+    { "palavra": "pintura facial", "parecida": "maquillaje de payaso" },
     { "palavra": "peluca de colores", "parecida": "gorro de natación" },
     { "palavra": "corona de reina", "parecida": "tiara" },
     { "palavra": "sombrero de copa", "parecida": "sombrero de mago" },
@@ -54,7 +54,7 @@
     { "palavra": "jurado", "parecida": "árbitro" },
     { "palavra": "miércoles de ceniza", "parecida": "lunes" },
     { "palavra": "martes de carnaval", "parecida": "viernes de quincena" },
-    { "palavra": "Cuaresma", "parecida": "dieta" },
+    { "palavra": "Cuaresma", "parecida": "ayuno" },
     { "palavra": "lunes de carnaval", "parecida": "feriado de Semana Santa" },
     { "palavra": "bailarín de comparsa", "parecida": "gimnasta" },
     { "palavra": "disfraz de pareja", "parecida": "ropa combinada" },

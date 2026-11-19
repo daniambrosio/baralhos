@@ -1,6 +1,6 @@
 {
   "id": "escola",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "recreio" },
     { "texto": "merenda" },
@@ -79,7 +79,7 @@
     { "texto": "gincana" },
     { "texto": "quadrilha da escola" },
     { "texto": "teatrinho" },
-    { "texto": "fazer a árvore" },
+    { "texto": "papel de árvore" },
     { "texto": "lancheira" },
     { "texto": "trocar lanche" },
     { "texto": "garrafinha d'água" },

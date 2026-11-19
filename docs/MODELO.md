@@ -55,7 +55,7 @@ O preço é por jogo: o mesmo tema pode ser grátis num jogo e pago no outro, po
 { "id": "classicos", "versao": 1, "itens": [{ "palavra": "praia", "parecida": "piscina" }] }
 ```
 
-`parecida` é a dica que o impostor pode receber no lugar de não receber nada. O uso é um ajuste do app. A palavra parecida tem que ser da mesma família, mas diferente o bastante para o impostor se entregar se confiar demais nela.
+`parecida` é a dica que o impostor pode receber no lugar de não receber nada. O uso é um ajuste do app. A palavra parecida tem que ser da mesma família, mas diferente o bastante para o impostor se entregar se confiar demais nela. Ela não pode conter a palavra (nem o contrário) e as dicas de um baralho não podem formar um círculo; o validador trava os dois casos.
 
 ## Baralho da Mímica (`<id>.json`)
 
@@ -63,7 +63,11 @@ O preço é por jogo: o mesmo tema pode ser grátis num jogo e pago no outro, po
 { "id": "animais", "versao": 1, "itens": [{ "texto": "girafa" }] }
 ```
 
-`texto` é o que aparece na tela: curto, legível de longe, de preferência até 3 palavras.
+`texto` é o que aparece na tela: curto, legível de longe. O alvo é até 3 palavras e o teto é 4 (ou 26 letras); acima disso o validador avisa. Nunca corte artigo ou preposição para caber: se não cabe, troque o item.
+
+## Conteúdo
+
+O que pode e o que não pode entrar num baralho está em `docs/CONTEUDO.md`. A parte que dá para reconhecer por lista fica em `ferramentas/termos_vetados.json` e é erro no validador.
 
 ## Jogos do estúdio (`jogos.json`)
 
@@ -79,7 +83,7 @@ Para publicar:
 ~/projects/vps-ops/scripts/deploy-baralhos.sh
 ```
 
-O script roda o validador e para se ele falhar, envia só o que é público (`jogos.json`, os `.json` de `impostor/` e `mimica/`, e `capas/*.webp`) e remove do servidor o que saiu daqui. Ele publica a pasta como está, mesmo sem commit.
+O script roda o validador e para se ele falhar (inclusive por termo vetado), envia só o que é público (`jogos.json`, os `.json` de `impostor/` e `mimica/`, e `capas/*.webp`) e remove do servidor o que saiu daqui. Ele publica a pasta como está, mesmo sem commit.
 
 - Os `.json` ficam em cache por 5 minutos; as capas, por 24 horas. Para trocar uma capa com efeito imediato, publique com outro nome de arquivo.
 - Tipo novo de arquivo público (por exemplo `.png`) ou pasta de um jogo novo exige ajustar o script e o servidor: ver `~/projects/vps-ops/projects/baralhos/playbook.md`.

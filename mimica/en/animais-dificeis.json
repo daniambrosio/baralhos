@@ -1,6 +1,6 @@
 {
   "id": "animais-dificeis",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "llama" },
     { "texto": "alpaca" },
@@ -28,11 +28,11 @@
     { "texto": "condor" },
     { "texto": "emu" },
     { "texto": "roadrunner" },
-    { "texto": "sparrow" },
-    { "texto": "canary" },
+    { "texto": "flying fish" },
+    { "texto": "frilled lizard" },
     { "texto": "pigeon" },
-    { "texto": "quail" },
-    { "texto": "pheasant" },
+    { "texto": "blobfish" },
+    { "texto": "sugar glider" },
     { "texto": "cobra" },
     { "texto": "rattlesnake" },
     { "texto": "anaconda" },

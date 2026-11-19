@@ -1,6 +1,6 @@
 {
   "id": "tecnologia",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "Wi-Fi", "parecida": "Bluetooth" },
     { "palavra": "charger", "parecida": "power bank" },
@@ -20,7 +20,7 @@
     { "palavra": "like button", "parecida": "thumbs up" },
     { "palavra": "viral video", "parecida": "news report" },
     { "palavra": "livestream", "parecida": "video call" },
-    { "palavra": "video call", "parecida": "group call" },
+    { "palavra": "video call", "parecida": "voicemail" },
     { "palavra": "Zoom meeting", "parecida": "conference call" },
     { "palavra": "group chat notification", "parecida": "alarm" },
     { "palavra": "screenshot", "parecida": "photocopy" },

@@ -1,12 +1,12 @@
 {
   "id": "profissoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "dentista", "parecida": "manicure" },
     { "palavra": "enfermeiro", "parecida": "babá" },
     { "palavra": "veterinário", "parecida": "pediatra" },
     { "palavra": "cirurgião", "parecida": "açougueiro" },
-    { "palavra": "psicólogo", "parecida": "barman" },
+    { "palavra": "psicólogo", "parecida": "cabeleireiro" },
     { "palavra": "policial", "parecida": "árbitro" },
     { "palavra": "detetive", "parecida": "fofoqueiro" },
     { "palavra": "juiz", "parecida": "professor" },
@@ -48,7 +48,7 @@
     { "palavra": "dublê", "parecida": "ator" },
     { "palavra": "coveiro", "parecida": "pedreiro" },
     { "palavra": "astrólogo", "parecida": "meteorologista" },
-    { "palavra": "sommelier", "parecida": "perfumista" },
+    { "palavra": "provador de café", "parecida": "perfumista" },
     { "palavra": "corretor de imóveis", "parecida": "guia turístico" },
     { "palavra": "personal trainer", "parecida": "nutricionista" },
     { "palavra": "padre", "parecida": "juiz" },

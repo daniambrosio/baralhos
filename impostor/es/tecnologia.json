@@ -1,6 +1,6 @@
 {
   "id": "tecnologia",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "wifi", "parecida": "antena" },
     { "palavra": "cargador", "parecida": "extensión eléctrica" },
@@ -46,7 +46,7 @@
     { "palavra": "modo avión", "parecida": "vacaciones" },
     { "palavra": "pantalla estrellada", "parecida": "rodilla raspada" },
     { "palavra": "funda del celular", "parecida": "impermeable" },
-    { "palavra": "palo de selfi", "parecida": "caña de pescar" },
+    { "palavra": "palo de selfie", "parecida": "caña de pescar" },
     { "palavra": "cámara de seguridad", "parecida": "portero" },
     { "palavra": "GPS", "parecida": "mapa de papel" },
     { "palavra": "app de transporte", "parecida": "taxi" },

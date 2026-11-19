@@ -1,6 +1,6 @@
 {
   "id": "brasil-raiz",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "festa junina" },
     { "texto": "quadrilha" },
@@ -14,7 +14,7 @@
     { "texto": "casamento caipira" },
     { "texto": "chapéu de palha" },
     { "texto": "bandeirinha" },
-    { "texto": "quentão" },
+    { "texto": "bolo de milho" },
     { "texto": "canjica" },
     { "texto": "pé de moleque" },
     { "texto": "milho cozido" },
@@ -57,7 +57,7 @@
     { "texto": "filtro de barro" },
     { "texto": "garrafa térmica" },
     { "texto": "fogão a lenha" },
-    { "texto": "benzedeira" },
+    { "texto": "plantar bananeira" },
     { "texto": "romaria" },
     { "texto": "tomar chimarrão" },
     { "texto": "guaraná" },

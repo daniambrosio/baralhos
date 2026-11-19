@@ -1,6 +1,6 @@
 {
   "id": "anos-90",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "Tamagotchi" },
     { "texto": "Game Boy" },
@@ -46,7 +46,7 @@
     { "texto": "Chiquititas" },
     { "texto": "Mamonas Assassinas" },
     { "texto": "É o Tchan" },
-    { "texto": "dança da garrafa" },
+    { "texto": "Pula Pirata" },
     { "texto": "Macarena" },
     { "texto": "Spice Girls" },
     { "texto": "Backstreet Boys" },
@@ -75,9 +75,9 @@
     { "texto": "Windows 95" },
     { "texto": "enciclopédia" },
     { "texto": "Show do Milhão" },
-    { "texto": "Sílvio Santos" },
+    { "texto": "Silvio Santos" },
     { "texto": "Faustão" },
-    { "texto": "Banheira do Gugu" },
+    { "texto": "Passa ou Repassa" },
     { "texto": "Louro José" },
     { "texto": "Tartarugas Ninja" },
     { "texto": "Os Simpsons" },

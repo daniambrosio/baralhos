@@ -1,9 +1,9 @@
 {
   "id": "lugares",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "aeropuerto", "parecida": "terminal de autobuses" },
-    { "palavra": "supermercado", "parecida": "mercado" },
+    { "palavra": "supermercado", "parecida": "tienda de la esquina" },
     { "palavra": "centro comercial", "parecida": "centro de la ciudad" },
     { "palavra": "universidad", "parecida": "preparatoria" },
     { "palavra": "biblioteca", "parecida": "librería" },
@@ -56,7 +56,7 @@
     { "palavra": "autódromo", "parecida": "pista de karts" },
     { "palavra": "buffet", "parecida": "comedor industrial" },
     { "palavra": "autoservicio", "parecida": "entrega a domicilio" },
-    { "palavra": "volcán", "parecida": "montaña rusa" },
+    { "palavra": "volcán", "parecida": "géiser" },
     { "palavra": "pirámide", "parecida": "templo" },
     { "palavra": "rancho", "parecida": "hacienda" },
     { "palavra": "iglú", "parecida": "tienda de campaña" },

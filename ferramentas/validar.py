@@ -15,6 +15,57 @@ def sem_acento(texto):
     t = unicodedata.normalize("NFD", str(texto).strip().lower().replace("ñ", "\0"))
     return "".join(c for c in t if unicodedata.category(c) != "Mn").replace("\0", "ñ")
 
+def fichas(texto):
+    """Palavras do texto, sem acento e sem pontuação: 'Pé-de-moleque!' vira ['pe', 'de', 'moleque']."""
+    return re.findall(r"[a-z0-9ñ]+", sem_acento(texto))
+
+def contem(maior, menor):
+    """A sequência de palavras `menor` aparece inteira, na ordem, dentro de `maior`?"""
+    n = len(menor)
+    return n > 0 and any(maior[i:i + n] == menor for i in range(len(maior) - n + 1))
+
+TERMOS = json.loads((RAIZ / "ferramentas" / "termos_vetados.json").read_text(encoding="utf-8"))
+
+def vetados(idioma, faixa, jogo):
+    """Lista de (categoria, palavras do termo) que valem para este idioma, faixa e jogo."""
+    blocos = [TERMOS["sempre"]]
+    if faixa != "adulto":
+        blocos.append(TERMOS["livre"])
+    if jogo == "mimica":
+        blocos.append(TERMOS["so_mimica"])
+    saida = []
+    for bloco in blocos:
+        for chave in ("todos", idioma):
+            for categoria, termos in bloco.get(chave, {}).items():
+                saida += [(categoria, fichas(t), t) for t in termos]
+    return saida
+
+def conferir_texto(onde, texto, idioma, lista):
+    """Erros de conteúdo que valem para qualquer texto que o usuário lê: item, título e descrição."""
+    palavras = fichas(texto)
+    for categoria, termo, original in lista:
+        if contem(palavras, termo):
+            erro(onde, f"termo vetado ({categoria}): '{original}' em '{texto}'")
+    baixo = str(texto).lower()
+    for errada, certa in TERMOS["grafia"].get(idioma, {}).items():
+        if re.search(rf"(?<!\w){re.escape(errada)}(?!\w)", baixo):
+            erro(onde, f"grafia fora do padrão: '{errada}' em '{texto}'. Use '{certa}'")
+    for nome in TERMOS["maiusculas"].get(idioma, []):
+        if re.search(rf"(?<!\w){re.escape(nome)}(?!\w)", str(texto)):
+            erro(onde, f"'{nome}' se escreve com inicial maiúscula: '{texto}'")
+    if texto != str(texto).strip() or "  " in str(texto):
+        erro(onde, f"espaço sobrando em '{texto}'")
+
+def dica_entrega(palavra, parecida):
+    """A dica do impostor contém a palavra (ou o contrário): 'golfe' e 'minigolfe', 'plancha' e 'plancha de pelo'."""
+    a, b = fichas(palavra), fichas(parecida)
+    if contem(a, b) or contem(b, a):
+        return True
+    if len(a) == 1 and len(b) == 1:
+        curto, longo = sorted((a[0], b[0]), key=len)
+        return len(curto) >= 4 and longo.endswith(curto)
+    return False
+
 def erro(onde, msg):
     erros.append(f"{onde}: {msg}")
 
@@ -27,6 +78,9 @@ for jogo, campos in CAMPOS.items():
         dados = json.loads(indice.read_text(encoding="utf-8"))
         if dados.get("jogo") != jogo or dados.get("idioma") != pasta.name:
             erro(indice, "jogo ou idioma não bate com a pasta")
+        idioma = pasta.name
+        for c in dados.get("categorias", []):
+            conferir_texto(indice, c.get("nome", ""), idioma, vetados(idioma, "livre", jogo))
         cats = {c.get("id") for c in dados.get("categorias", [])}
         ids = set()
         for b in dados.get("baralhos", []):
@@ -54,6 +108,11 @@ for jogo, campos in CAMPOS.items():
                 erro(onde, "categoria que não existe neste índice")
             if b.get("capa") and not (RAIZ / b["capa"]).exists():
                 erro(onde, f"capa não encontrada: {b['capa']}")
+            lista = vetados(idioma, b.get("faixa"), jogo)
+            # Título e descrição não são encenados: o so_mimica não vale para eles.
+            lista_vitrine = vetados(idioma, b.get("faixa"), "vitrine")
+            for campo in ("titulo", "descricao"):
+                conferir_texto(onde, b.get(campo, ""), idioma, lista_vitrine)
             arq = pasta / f"{b['id']}.json"
             if not arq.exists():
                 erro(onde, "arquivo do baralho não encontrado")
@@ -75,6 +134,22 @@ for jogo, campos in CAMPOS.items():
                 if chave in vistos:
                     erro(arq, f"item repetido: {chave}")
                 vistos.add(chave)
+                for campo in campos:
+                    conferir_texto(arq, item.get(campo, ""), idioma, lista)
+                if jogo == "impostor" and dica_entrega(item.get("palavra", ""), item.get("parecida", "")):
+                    erro(arq, f"a dica entrega a palavra: {item.get('palavra')} / {item.get('parecida')}")
+            if jogo == "impostor":
+                # Dicas em círculo (A → B → C → A): o impostor recebe uma palavra tão próxima que nunca se entrega.
+                seta = {sem_acento(i.get("palavra", "")): sem_acento(i.get("parecida", "")) for i in itens}
+                em_ciclo = set()
+                for inicio in seta:
+                    caminho, atual = [], inicio
+                    while atual in seta and atual not in caminho:
+                        caminho.append(atual)
+                        atual = seta[atual]
+                    if atual == inicio and inicio not in em_ciclo:
+                        em_ciclo.update(caminho)
+                        erro(arq, "dicas em círculo: " + " → ".join(caminho + [inicio]))
         for b in dados.get("baralhos", []):
             if set(b.get("relacionados", [])) - ids:
                 erro(f"{indice} [{b.get('id')}]", "relacionado que não existe")
@@ -91,8 +166,9 @@ for jogo, campos in CAMPOS.items():
             for item in json.loads(arq.read_text(encoding="utf-8")).get("itens", []):
                 texto = str(item.get(campos[0], ""))
                 onde_item.setdefault(sem_acento(texto), []).append(b["id"])
-                if jogo == "mimica" and len(texto.split()) > 3:
-                    aviso(arq, f"mais de 3 palavras: {texto}")
+                # Até 3 palavras é o alvo, 4 é o teto. Cortar artigo ou preposição para caber é pior do que passar de 3.
+                if jogo == "mimica" and (len(texto.split()) > 4 or len(texto) > 26):
+                    aviso(arq, f"longo demais para ler de longe: {texto}")
         # Só o Impostor junta vários baralhos numa partida; no Na Testa repetir não atrapalha.
         for chave, baralhos in sorted(onde_item.items()):
             if jogo == "impostor" and len(baralhos) > 1:

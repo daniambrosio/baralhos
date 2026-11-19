@@ -1,6 +1,6 @@
 {
   "id": "fim-de-ano",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "Santa Claus" },
     { "texto": "ho ho ho" },
@@ -46,7 +46,7 @@
     { "texto": "regift" },
     { "texto": "return a gift" },
     { "texto": "mall Santa" },
-    { "texto": "sit on lap" },
+    { "texto": "photo with Santa" },
     { "texto": "letter to Santa" },
     { "texto": "naughty list" },
     { "texto": "Christmas morning" },

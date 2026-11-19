@@ -1,6 +1,6 @@
 {
   "id": "lugares",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "airport", "parecida": "bus station" },
     { "palavra": "supermarket", "parecida": "farmers market" },
@@ -41,7 +41,7 @@
     { "palavra": "island", "parecida": "lighthouse" },
     { "palavra": "space station", "parecida": "airplane cockpit" },
     { "palavra": "castle", "parecida": "palace" },
-    { "palavra": "apartment building", "parecida": "trailer park" },
+    { "palavra": "apartment building", "parecida": "condo" },
     { "palavra": "cave", "parecida": "tunnel" },
     { "palavra": "bridge", "parecida": "dam" },
     { "palavra": "laboratory", "parecida": "greenhouse" },

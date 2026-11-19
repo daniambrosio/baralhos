@@ -1,6 +1,6 @@
 {
   "id": "lugares",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "aeroporto", "parecida": "rodoviária" },
     { "palavra": "supermercado", "parecida": "feira" },
@@ -18,7 +18,7 @@
     { "palavra": "acampamento", "parecida": "hotel" },
     { "palavra": "hotel", "parecida": "navio de cruzeiro" },
     { "palavra": "restaurante", "parecida": "cozinha" },
-    { "palavra": "boteco", "parecida": "cafeteria" },
+    { "palavra": "lanchonete", "parecida": "cafeteria" },
     { "palavra": "banco", "parecida": "correio" },
     { "palavra": "delegacia", "parecida": "tribunal" },
     { "palavra": "cadeia", "parecida": "quartel" },

@@ -1,6 +1,6 @@
 {
   "id": "festa-junina",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "olha a chuva" },
     { "texto": "olha a ponte" },
@@ -61,7 +61,7 @@
     { "texto": "fazer trança" },
     { "texto": "pintar sardas" },
     { "texto": "bigode pintado" },
-    { "texto": "banguela" },
+    { "texto": "pintar o dente" },
     { "texto": "botina" },
     { "texto": "lenço no pescoço" },
     { "texto": "chapéu de couro" },

@@ -1,6 +1,6 @@
 {
   "id": "dificil",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "nostalgia", "parecida": "recuerdo" },
     { "palavra": "celos", "parecida": "envidia" },
@@ -57,7 +57,7 @@
     { "palavra": "déjà vu", "parecida": "repetición" },
     { "palavra": "verdad", "parecida": "espejo" },
     { "palavra": "pena ajena", "parecida": "lástima" },
-    { "palavra": "ego", "parecida": "selfi" },
+    { "palavra": "ego", "parecida": "selfie" },
     { "palavra": "karma", "parecida": "bumerán" },
     { "palavra": "infinito", "parecida": "universo" },
     { "palavra": "nada", "parecida": "cero" },

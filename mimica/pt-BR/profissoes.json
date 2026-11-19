@@ -1,6 +1,6 @@
 {
   "id": "profissoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "médico" },
     { "texto": "dentista" },
@@ -24,7 +24,7 @@
     { "texto": "padeiro" },
     { "texto": "cozinheiro" },
     { "texto": "garçom" },
-    { "texto": "bartender" },
+    { "texto": "barista" },
     { "texto": "confeiteiro" },
     { "texto": "açougueiro" },
     { "texto": "feirante" },

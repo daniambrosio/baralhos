@@ -1,11 +1,11 @@
 {
   "id": "profissoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "enfermero", "parecida": "niñera" },
     { "palavra": "veterinario", "parecida": "pediatra" },
     { "palavra": "cirujano", "parecida": "carnicero" },
-    { "palavra": "psicólogo", "parecida": "bartender" },
+    { "palavra": "psicólogo", "parecida": "peluquero" },
     { "palavra": "policía", "parecida": "árbitro" },
     { "palavra": "detective", "parecida": "chismoso" },
     { "palavra": "juez", "parecida": "maestro" },
@@ -19,7 +19,7 @@
     { "palavra": "cocinero", "parecida": "químico" },
     { "palavra": "vendedor ambulante", "parecida": "vendedor de mercado" },
     { "palavra": "cajero de supermercado", "parecida": "cobrador de autobús" },
-    { "palavra": "barista", "parecida": "bartender" },
+    { "palavra": "barista", "parecida": "heladero" },
     { "palavra": "mecánico", "parecida": "cirujano" },
     { "palavra": "electricista", "parecida": "técnico de computadoras" },
     { "palavra": "plomero", "parecida": "buzo" },

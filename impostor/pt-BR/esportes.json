@@ -1,6 +1,6 @@
 {
   "id": "esportes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "vôlei", "parecida": "badminton" },
     { "palavra": "basquete", "parecida": "handebol" },
@@ -56,7 +56,7 @@
     { "palavra": "Olimpíada", "parecida": "Copa do Mundo" },
     { "palavra": "torcedor fanático", "parecida": "fã" },
     { "palavra": "mascote", "parecida": "fantasia" },
-    { "palavra": "golfe", "parecida": "minigolfe" },
+    { "palavra": "golfe", "parecida": "críquete" },
     { "palavra": "rúgbi", "parecida": "briga de travesseiro" },
     { "palavra": "canoagem", "parecida": "rafting" },
     { "palavra": "triatlo", "parecida": "gincana" },

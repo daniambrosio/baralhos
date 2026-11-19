@@ -1,6 +1,6 @@
 {
   "id": "expressoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "break a leg" },
     { "texto": "spill the beans" },
@@ -22,7 +22,7 @@
     { "texto": "cry wolf" },
     { "texto": "dark horse" },
     { "texto": "white elephant" },
-    { "texto": "black sheep" },
+    { "texto": "bookworm" },
     { "texto": "early bird" },
     { "texto": "night owl" },
     { "texto": "copycat" },
@@ -87,7 +87,7 @@
     { "texto": "see red" },
     { "texto": "caught red-handed" },
     { "texto": "pull the plug" },
-    { "texto": "throw the towel" },
+    { "texto": "throw in the towel" },
     { "texto": "walk on air" },
     { "texto": "head in clouds" },
     { "texto": "fishy" },

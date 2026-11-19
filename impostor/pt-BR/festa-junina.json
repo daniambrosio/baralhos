@@ -1,6 +1,6 @@
 {
   "id": "festa-junina",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "curau", "parecida": "mingau" },
     { "palavra": "arroz-doce", "parecida": "pudim" },
@@ -29,7 +29,7 @@
     { "palavra": "calça remendada", "parecida": "calça rasgada" },
     { "palavra": "trança", "parecida": "rabo de cavalo" },
     { "palavra": "bigode pintado", "parecida": "bigode de verdade" },
-    { "palavra": "banguela", "parecida": "dentuço" },
+    { "palavra": "dente pintado", "parecida": "dente de ouro" },
     { "palavra": "botina", "parecida": "bota de borracha" },
     { "palavra": "lenço no pescoço", "parecida": "cachecol" },
     { "palavra": "fita no cabelo", "parecida": "tiara" },

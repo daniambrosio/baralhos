@@ -1,6 +1,6 @@
 {
   "id": "profissoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "nurse", "parecida": "doctor" },
     { "palavra": "veterinarian", "parecida": "zookeeper" },
@@ -14,7 +14,7 @@
     { "palavra": "zookeeper", "parecida": "circus trainer" },
     { "palavra": "pilot", "parecida": "bus driver" },
     { "palavra": "flight attendant", "parecida": "waiter" },
-    { "palavra": "waiter", "parecida": "bartender" },
+    { "palavra": "waiter", "parecida": "host" },
     { "palavra": "chef", "parecida": "baker" },
     { "palavra": "barista", "parecida": "ice cream scooper" },
     { "palavra": "cashier", "parecida": "bank teller" },

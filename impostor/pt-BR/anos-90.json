@@ -1,6 +1,6 @@
 {
   "id": "anos-90",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "Tamagotchi", "parecida": "bichinho de pelúcia" },
     { "palavra": "Game Boy", "parecida": "calculadora" },
@@ -25,11 +25,11 @@
     { "palavra": "Pokémon", "parecida": "Power Rangers" },
     { "palavra": "Cavaleiros do Zodíaco", "parecida": "Os Simpsons" },
     { "palavra": "Chaves", "parecida": "Turma da Mônica" },
-    { "palavra": "Xuxa", "parecida": "Sílvio Santos" },
+    { "palavra": "Xuxa", "parecida": "Silvio Santos" },
     { "palavra": "TV Colosso", "parecida": "Castelo Rá-Tim-Bum" },
     { "palavra": "Castelo Rá-Tim-Bum", "parecida": "Sítio do Picapau Amarelo" },
     { "palavra": "Mamonas Assassinas", "parecida": "É o Tchan" },
-    { "palavra": "dança da garrafa", "parecida": "dança das cadeiras" },
+    { "palavra": "lambada", "parecida": "salsa" },
     { "palavra": "Spice Girls", "parecida": "Backstreet Boys" },
     { "palavra": "Titanic", "parecida": "Jurassic Park" },
     { "palavra": "Copa de 94", "parecida": "Olimpíada" },

@@ -1,9 +1,9 @@
 {
   "id": "fim-de-ano",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "Christmas tree", "parecida": "wreath" },
-    { "palavra": "Santa Claus", "parecida": "mall Santa" },
+    { "palavra": "Santa Claus", "parecida": "Easter Bunny" },
     { "palavra": "reindeer", "parecida": "moose" },
     { "palavra": "Rudolph", "parecida": "Frosty" },
     { "palavra": "elf", "parecida": "gnome" },
@@ -66,9 +66,9 @@
     { "palavra": "confetti", "parecida": "glitter" },
     { "palavra": "party hat", "parecida": "crown" },
     { "palavra": "noisemaker", "parecida": "whistle" },
-    { "palavra": "champagne toast", "parecida": "birthday toast" },
+    { "palavra": "midnight toast", "parecida": "birthday toast" },
     { "palavra": "New Year's resolution", "parecida": "to-do list" },
-    { "palavra": "hangover breakfast", "parecida": "brunch" },
+    { "palavra": "sleeping in", "parecida": "taking a nap" },
     { "palavra": "Auld Lang Syne", "parecida": "Happy Birthday song" }
   ]
 }

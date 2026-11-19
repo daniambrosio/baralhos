@@ -1,6 +1,6 @@
 {
   "id": "terror",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "zombie" },
     { "texto": "vampire" },
@@ -17,7 +17,7 @@
     { "texto": "scary clown" },
     { "texto": "creepy doll" },
     { "texto": "creepy twins" },
-    { "texto": "possessed" },
+    { "texto": "silver bullet" },
     { "texto": "creaky door" },
     { "texto": "footsteps upstairs" },
     { "texto": "flickering lights" },
@@ -50,7 +50,7 @@
     { "texto": "skull" },
     { "texto": "cauldron" },
     { "texto": "broomstick" },
-    { "texto": "voodoo doll" },
+    { "texto": "vampire hunter" },
     { "texto": "garlic necklace" },
     { "texto": "wooden stake" },
     { "texto": "full moon" },
@@ -90,7 +90,7 @@
     { "texto": "turn into bat" },
     { "texto": "cursed videotape" },
     { "texto": "mad scientist" },
-    { "texto": "séance" },
+    { "texto": "haunted painting" },
     { "texto": "hand from grave" }
   ]
 }

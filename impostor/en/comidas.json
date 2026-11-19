@@ -1,6 +1,6 @@
 {
   "id": "comidas",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "mac and cheese", "parecida": "grilled cheese" },
     { "palavra": "hamburger", "parecida": "hot dog" },
@@ -32,7 +32,7 @@
     { "palavra": "coffee", "parecida": "hot chocolate" },
     { "palavra": "orange juice", "parecida": "lemonade" },
     { "palavra": "soda", "parecida": "iced tea" },
-    { "palavra": "milk", "parecida": "chocolate milk" },
+    { "palavra": "milk", "parecida": "cream" },
     { "palavra": "apple", "parecida": "pear" },
     { "palavra": "banana", "parecida": "mango" },
     { "palavra": "watermelon", "parecida": "cantaloupe" },

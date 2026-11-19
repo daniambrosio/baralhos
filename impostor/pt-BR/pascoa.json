@@ -1,6 +1,6 @@
 {
   "id": "pascoa",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "ovo de chocolate", "parecida": "bombom" },
     { "palavra": "coelhinho da Páscoa", "parecida": "fada do dente" },
@@ -14,7 +14,7 @@
     { "palavra": "Quaresma", "parecida": "jejum" },
     { "palavra": "procissão", "parecida": "desfile" },
     { "palavra": "via-sacra", "parecida": "romaria" },
-    { "palavra": "terço", "parecida": "colar" },
+    { "palavra": "terço", "parecida": "escapulário" },
     { "palavra": "ramo de palmeira", "parecida": "buquê" },
     { "palavra": "missa de Páscoa", "parecida": "culto" },
     { "palavra": "Santa Ceia", "parecida": "ceia de Natal" },
@@ -34,7 +34,7 @@
     { "palavra": "amêndoa", "parecida": "amendoim" },
     { "palavra": "ovo pintado", "parecida": "ovo cozido" },
     { "palavra": "almoço de Páscoa", "parecida": "almoço de domingo" },
-    { "palavra": "malhação do Judas", "parecida": "piñata" },
+    { "palavra": "rosca de Páscoa", "parecida": "pão doce" },
     { "palavra": "coelho de pelúcia", "parecida": "ursinho" },
     { "palavra": "ninho de Páscoa", "parecida": "ninho de passarinho" },
     { "palavra": "lembrancinha de Páscoa", "parecida": "lembrancinha de aniversário" },

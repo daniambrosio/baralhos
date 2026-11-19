@@ -77,7 +77,7 @@
     },
     {
       "id": "fim-de-ano",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Holidays",
       "descricao": "Santa stuck in the chimney, the awkward uncle and the ball drop. For the whole family, from dinner to midnight.",
       "capa": "capas/fim-de-ano.webp",
@@ -89,7 +89,7 @@
     },
     {
       "id": "carnaval",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Carnival",
       "descricao": "Catch beads, king cake, stilt walkers and lose a shoe. Mardi Gras without leaving the couch.",
       "capa": "capas/carnaval.webp",
@@ -113,7 +113,7 @@
     },
     {
       "id": "terror",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Horror",
       "descricao": "Zombies, Chucky, creaky doors and tripping while running. Every horror cliché, acted out.",
       "capa": "capas/terror.webp",
@@ -185,7 +185,7 @@
     },
     {
       "id": "dancas",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Dance Moves",
       "descricao": "Moonwalk, the worm, Macarena and tap dance. Clear some space in the living room.",
       "capa": "capas/dancas.webp",
@@ -197,7 +197,7 @@
     },
     {
       "id": "expressoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Idioms",
       "descricao": "Spill the beans, break a leg, hold your horses. Acting them out literally is the whole fun.",
       "capa": "capas/expressoes.webp",
@@ -209,7 +209,7 @@
     },
     {
       "id": "animais-dificeis",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Tricky Animals",
       "descricao": "Axolotl, narwhal, praying mantis and Tasmanian devil. For when the Animals deck is too easy.",
       "capa": "capas/animais-dificeis.webp",
@@ -233,7 +233,7 @@
     },
     {
       "id": "pascoa",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Easter",
       "descricao": "Hop like a bunny, dye eggs, wave palm leaves and step on an egg. Spring has never been this silly.",
       "capa": "capas/pascoa.webp",

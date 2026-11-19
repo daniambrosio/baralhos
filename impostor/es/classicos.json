@@ -1,6 +1,6 @@
 {
   "id": "classicos",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "playa", "parecida": "piscina" },
     { "palavra": "pizza", "parecida": "lasaña" },
@@ -83,7 +83,7 @@
     { "palavra": "mapa", "parecida": "globo terráqueo" },
     { "palavra": "resfriado", "parecida": "alergia" },
     { "palavra": "vacuna", "parecida": "jarabe" },
-    { "palavra": "selfi", "parecida": "retrato" },
+    { "palavra": "selfie", "parecida": "retrato" },
     { "palavra": "internet", "parecida": "teléfono fijo" },
     { "palavra": "correo electrónico", "parecida": "carta" },
     { "palavra": "mensaje de voz", "parecida": "llamada" },

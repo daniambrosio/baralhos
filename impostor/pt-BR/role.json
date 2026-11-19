@@ -1,18 +1,18 @@
 {
   "id": "role",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "churrasco na laje", "parecida": "piquenique" },
-    { "palavra": "show de rock", "parecida": "missa" },
+    { "palavra": "show de rock", "parecida": "ópera" },
     { "palavra": "festival de música", "parecida": "feira de artesanato" },
     { "palavra": "karaokê", "parecida": "coral" },
     { "palavra": "boliche", "parecida": "sinuca" },
     { "palavra": "sinuca", "parecida": "pebolim" },
     { "palavra": "maratona de série", "parecida": "maratona de corrida" },
     { "palavra": "noite de jogos", "parecida": "noite de pizza" },
-    { "palavra": "happy hour", "parecida": "reunião" },
+    { "palavra": "encontro da turma", "parecida": "reunião" },
     { "palavra": "festa surpresa", "parecida": "emboscada" },
-    { "palavra": "barzinho", "parecida": "lanchonete" },
+    { "palavra": "hamburgueria", "parecida": "lanchonete" },
     { "palavra": "roda de samba", "parecida": "roda de capoeira" },
     { "palavra": "luau", "parecida": "fogueira" },
     { "palavra": "festa na piscina", "parecida": "parque aquático" },
@@ -46,7 +46,7 @@
     { "palavra": "carona", "parecida": "táxi" },
     { "palavra": "cosplay", "parecida": "fantasia de carnaval" },
     { "palavra": "feira de anime", "parecida": "feira de ciências" },
-    { "palavra": "show de pagode", "parecida": "culto" },
+    { "palavra": "show de pagode", "parecida": "roda de choro" },
     { "palavra": "camping", "parecida": "hotel fazenda" },
     { "palavra": "fondue", "parecida": "churrasco" },
     { "palavra": "cinema ao ar livre", "parecida": "sessão em casa" },
@@ -61,6 +61,6 @@
     { "palavra": "parque aquático", "parecida": "piscina de clube" },
     { "palavra": "quiosque de praia", "parecida": "barraca de feira" },
     { "palavra": "pedalinho", "parecida": "caiaque" },
-    { "palavra": "noite do vinho", "parecida": "noite do queijo" }
+    { "palavra": "torneio de videogame", "parecida": "gincana" }
   ]
 }

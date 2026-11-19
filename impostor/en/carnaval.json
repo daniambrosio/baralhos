@@ -1,6 +1,6 @@
 {
   "id": "carnaval",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "Mardi Gras", "parecida": "Halloween" },
     { "palavra": "Fat Tuesday", "parecida": "Black Friday" },
@@ -53,7 +53,7 @@
     { "palavra": "gondola", "parecida": "canoe" },
     { "palavra": "Venetian mask", "parecida": "superhero mask" },
     { "palavra": "Ash Wednesday", "parecida": "Easter Sunday" },
-    { "palavra": "Lent", "parecida": "diet" },
+    { "palavra": "Lent", "parecida": "fasting" },
     { "palavra": "pancake day", "parecida": "brunch" },
     { "palavra": "street party", "parecida": "block party" },
     { "palavra": "dance-off", "parecida": "talent show" },
@@ -61,6 +61,6 @@
     { "palavra": "porta-potty", "parecida": "public restroom" },
     { "palavra": "crowd", "parecida": "line" },
     { "palavra": "police barricade", "parecida": "fence" },
-    { "palavra": "morning after", "parecida": "Monday morning" }
+    { "palavra": "cleanup crew", "parecida": "janitor" }
   ]
 }

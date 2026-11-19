@@ -1,9 +1,9 @@
 {
   "id": "role",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "carne asada", "parecida": "picnic" },
-    { "palavra": "concierto de rock", "parecida": "misa" },
+    { "palavra": "concierto de rock", "parecida": "ópera" },
     { "palavra": "festival de música", "parecida": "feria de artesanías" },
     { "palavra": "karaoke", "parecida": "coro de la iglesia" },
     { "palavra": "bolos", "parecida": "billar" },
@@ -47,7 +47,7 @@
     { "palavra": "paseo en lancha", "parecida": "paseo en autobús" },
     { "palavra": "vuelo en globo", "parecida": "ala delta" },
     { "palavra": "kayak", "parecida": "bote de pedales" },
-    { "palavra": "foto grupal", "parecida": "selfi" },
+    { "palavra": "foto grupal", "parecida": "selfie" },
     { "palavra": "grupo de chat", "parecida": "cadena de correo" },
     { "palavra": "pista de baile", "parecida": "escenario" },
     { "palavra": "pedir pizza", "parecida": "cocinar en casa" },

@@ -13,7 +13,7 @@
   "baralhos": [
     {
       "id": "classicos",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Classics",
       "descricao": "Everyday words everyone knows. The best deck for your first game.",
       "capa": "capas/classicos.webp",
@@ -26,7 +26,7 @@
     },
     {
       "id": "comidas",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Food",
       "descricao": "From mac and cheese to sushi, from pancakes to buffalo wings. Everyone has an opinion about food.",
       "capa": "capas/comidas.webp",
@@ -39,7 +39,7 @@
     },
     {
       "id": "lugares",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Places",
       "descricao": "Airport, waterfall, hair salon, police station. Everyone tries to prove they have been there.",
       "capa": "capas/lugares.webp",
@@ -77,7 +77,7 @@
     },
     {
       "id": "fim-de-ano",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Holidays",
       "descricao": "Secret Santa, ugly sweaters, eggnog and the ball drop. For when the whole family is together at the end of the year.",
       "capa": "capas/fim-de-ano.webp",
@@ -89,7 +89,7 @@
     },
     {
       "id": "carnaval",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Carnival",
       "descricao": "Floats, beads, king cake and masks. If you have never caught a throw, you will give yourself away fast.",
       "capa": "capas/carnaval.webp",
@@ -113,7 +113,7 @@
     },
     {
       "id": "terror",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Horror",
       "descricao": "Vampires, haunted houses, the basement and Friday the 13th. Better play with the lights on.",
       "capa": "capas/terror.webp",
@@ -149,7 +149,7 @@
     },
     {
       "id": "role",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Night Out",
       "descricao": "Karaoke, barbecues, game night and splitting the check. For the crew that goes out together.",
       "capa": "capas/role.webp",
@@ -173,7 +173,7 @@
     },
     {
       "id": "tecnologia",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Tech",
       "descricao": "Wi-Fi, memes, group chats and being left on read. Life on your phone.",
       "capa": "capas/tecnologia.webp",
@@ -197,7 +197,7 @@
     },
     {
       "id": "profissoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Jobs",
       "descricao": "From the plumber to the astrologer. Everyone describes a job they have never done.",
       "capa": "capas/profissoes.webp",
@@ -209,7 +209,7 @@
     },
     {
       "id": "esportes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Sports",
       "descricao": "From the Super Bowl to sumo, from the hat trick to the slam dunk. For real fans and for people who just pretend.",
       "capa": "capas/esportes.webp",

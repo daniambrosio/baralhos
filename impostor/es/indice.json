@@ -13,7 +13,7 @@
   "baralhos": [
     {
       "id": "classicos",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Clásicos",
       "descricao": "Palabras de todos los días que todo el mundo conoce. El mejor mazo para la primera partida.",
       "capa": "capas/classicos.webp",
@@ -39,7 +39,7 @@
     },
     {
       "id": "lugares",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Lugares",
       "descricao": "Aeropuerto, cascada, salón de belleza, comisaría. Cada uno intenta demostrar que ya estuvo ahí.",
       "capa": "capas/lugares.webp",
@@ -77,7 +77,7 @@
     },
     {
       "id": "fim-de-ano",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Navidad y Año Nuevo",
       "descricao": "Posadas, rosca de reyes, piñata y las doce uvas. Para jugar con la familia reunida a fin de año.",
       "capa": "capas/fim-de-ano.webp",
@@ -89,7 +89,7 @@
     },
     {
       "id": "carnaval",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Carnaval",
       "descricao": "Comparsa, carroza, murga y espuma de carnaval. El que nunca salió en un desfile se delata rapidito.",
       "capa": "capas/carnaval.webp",
@@ -113,7 +113,7 @@
     },
     {
       "id": "terror",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Terror",
       "descricao": "La Llorona, chupacabras, sótano y martes 13. Mejor jugar con la luz prendida.",
       "capa": "capas/terror.webp",
@@ -149,7 +149,7 @@
     },
     {
       "id": "role",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Con Amigos",
       "descricao": "Carne asada, karaoke, escape room y dividir la cuenta. Para el grupo que siempre sale junto.",
       "capa": "capas/role.webp",
@@ -161,7 +161,7 @@
     },
     {
       "id": "casa",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Cosas de Casa",
       "descricao": "Licuadora, tendedero, trapeador y el bote de helado lleno de frijoles. Lo que hay en toda casa, y nadie describe igual.",
       "capa": "capas/casa.webp",
@@ -173,7 +173,7 @@
     },
     {
       "id": "tecnologia",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Tecnología",
       "descricao": "Wifi, memes, código QR y audios de cinco minutos. La vida en el celular.",
       "capa": "capas/tecnologia.webp",
@@ -185,7 +185,7 @@
     },
     {
       "id": "dificil",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Difícil",
       "descricao": "Nostalgia, celos, karma y déjà vu. Palabras abstractas para los que ya jugaron mucho.",
       "capa": "capas/dificil.webp",
@@ -197,7 +197,7 @@
     },
     {
       "id": "profissoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Profesiones",
       "descricao": "Del cirujano al astrólogo. Cada uno describe un trabajo que nunca hizo.",
       "capa": "capas/profissoes.webp",
@@ -209,7 +209,7 @@
     },
     {
       "id": "esportes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Deportes",
       "descricao": "Del penal al VAR, de la chilena a la lucha libre. Para los que viven el fútbol y para los que solo fingen.",
       "capa": "capas/esportes.webp",
@@ -221,7 +221,7 @@
     },
     {
       "id": "pascoa",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Semana Santa y Pascua",
       "descricao": "Domingo de Ramos, rosca de Pascua, búsqueda de huevos y vacaciones en la playa. Para jugar con la familia mientras se derrite el chocolate.",
       "capa": "capas/pascoa.webp",

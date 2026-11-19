@@ -1,6 +1,6 @@
 {
   "id": "terror",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "vampiro" },
     { "texto": "lobisomem" },
@@ -24,7 +24,7 @@
     { "texto": "Frankenstein" },
     { "texto": "palhaço assassino" },
     { "texto": "Samara" },
-    { "texto": "exorcismo" },
+    { "texto": "vulto na janela" },
     { "texto": "loira do banheiro" },
     { "texto": "poltergeist" },
     { "texto": "lua cheia" },
@@ -74,8 +74,8 @@
     { "texto": "dentes de vampiro" },
     { "texto": "alho" },
     { "texto": "estaca" },
-    { "texto": "água benta" },
-    { "texto": "padre exorcista" },
+    { "texto": "bala de prata" },
+    { "texto": "caçar vampiro" },
     { "texto": "caçador de fantasmas" },
     { "texto": "cientista maluco" },
     { "texto": "monstro do pântano" },

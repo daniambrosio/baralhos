@@ -1,14 +1,14 @@
 {
   "id": "classicos",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "beach", "parecida": "pool" },
     { "palavra": "pizza", "parecida": "lasagna" },
     { "palavra": "dog", "parecida": "cat" },
     { "palavra": "airplane", "parecida": "helicopter" },
     { "palavra": "hospital", "parecida": "pharmacy" },
-    { "palavra": "acoustic guitar", "parecida": "electric guitar" },
-    { "palavra": "cinema", "parecida": "theater" },
+    { "palavra": "guitar", "parecida": "violin" },
+    { "palavra": "movie theater", "parecida": "playhouse" },
     { "palavra": "shower", "parecida": "bathtub" },
     { "palavra": "grocery store", "parecida": "gas station" },
     { "palavra": "bicycle", "parecida": "scooter" },
@@ -96,7 +96,7 @@
     { "palavra": "dream", "parecida": "nightmare" },
     { "palavra": "secret", "parecida": "gossip" },
     { "palavra": "birthday", "parecida": "baby shower" },
-    { "palavra": "magic trick", "parecida": "card trick" },
+    { "palavra": "magic trick", "parecida": "juggling" },
     { "palavra": "trash", "parecida": "recycling" },
     { "palavra": "line", "parecida": "traffic jam" },
     { "palavra": "sandwich", "parecida": "wrap" }

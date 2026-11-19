@@ -26,7 +26,7 @@
     },
     {
       "id": "profissoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Profesiones",
       "descricao": "Del dentista al domador de leones, pasando por el mariachi. Todos saben imitar a alguien trabajando.",
       "capa": "capas/profissoes.webp",
@@ -39,7 +39,7 @@
     },
     {
       "id": "esportes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Deportes",
       "descricao": "Chilena, nado sincronizado, sumo y jalar la cuerda. Haz espacio en la sala.",
       "capa": "capas/esportes.webp",
@@ -77,7 +77,7 @@
     },
     {
       "id": "fim-de-ano",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Navidad y Año Nuevo",
       "descricao": "Posadas, rosca de reyes, doce uvas y correr con maleta. Para toda la familia, de la cena a la cuenta regresiva.",
       "capa": "capas/fim-de-ano.webp",
@@ -113,7 +113,7 @@
     },
     {
       "id": "terror",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Terror",
       "descricao": "La Llorona, chupacabras, Chucky y tropezar huyendo. Los clichés del miedo, en mímica.",
       "capa": "capas/terror.webp",
@@ -125,7 +125,7 @@
     },
     {
       "id": "brasil-raiz",
-      "versao": 1,
+      "versao": 2,
       "titulo": "De Nuestra Tierra",
       "descricao": "Regatear en el mercado, la chancla, tomar mate y altar de muertos. Toda Latinoamérica en una partida.",
       "capa": "capas/brasil-raiz.webp",
@@ -161,7 +161,7 @@
     },
     {
       "id": "comidas",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Comidas",
       "descricao": "Arepa, mango con chile, helado derretido y gelatina temblando. Da hambre solo de jugar.",
       "capa": "capas/comidas.webp",
@@ -185,7 +185,7 @@
     },
     {
       "id": "dancas",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Bailes y Ritmos",
       "descricao": "Cumbia, tango, moonwalk y Macarena. Haz espacio en la sala.",
       "capa": "capas/dancas.webp",
@@ -197,7 +197,7 @@
     },
     {
       "id": "expressoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Dichos y Expresiones",
       "descricao": "Meter la pata, tomar el pelo, echar chispas. Actuarlos al pie de la letra es lo divertido.",
       "capa": "capas/expressoes.webp",
@@ -209,7 +209,7 @@
     },
     {
       "id": "animais-dificeis",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Animales Difíciles",
       "descricao": "Ajolote, narval, mantis religiosa y demonio de Tasmania. Para quien ya se acabó el de animales.",
       "capa": "capas/animais-dificeis.webp",
@@ -233,7 +233,7 @@
     },
     {
       "id": "pascoa",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Semana Santa y Pascua",
       "descricao": "Tejer palmas, buscar huevos, tocar la matraca y el tráfico de regreso de vacaciones. Toda la Semana Santa cabe en una ronda.",
       "capa": "capas/pascoa.webp",

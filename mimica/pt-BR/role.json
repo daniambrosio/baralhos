@@ -1,6 +1,6 @@
 {
   "id": "role",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "churrasco na laje" },
     { "texto": "virar a carne" },
@@ -91,6 +91,6 @@
     { "texto": "karaokê" },
     { "texto": "cantar desafinado" },
     { "texto": "selfie no espelho" },
-    { "texto": "última saideira" }
+    { "texto": "despedida demorada" }
   ]
 }

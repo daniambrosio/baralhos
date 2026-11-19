@@ -1,6 +1,6 @@
 {
   "id": "carnaval",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "Mardi Gras" },
     { "texto": "parade" },
@@ -76,8 +76,8 @@
     { "texto": "robot costume" },
     { "texto": "cardboard costume" },
     { "texto": "group costume" },
-    { "texto": "dragon dance" },
-    { "texto": "lion dance" },
+    { "texto": "throw doubloons" },
+    { "texto": "dance on float" },
     { "texto": "float breaks down" },
     { "texto": "dance all night" },
     { "texto": "whistle" },
@@ -89,7 +89,7 @@
     { "texto": "fireworks" },
     { "texto": "bubble machine" },
     { "texto": "silly string" },
-    { "texto": "carnival ride" },
+    { "texto": "balcony wave" },
     { "texto": "parade route" },
     { "texto": "throw candy" }
   ]

@@ -1,6 +1,6 @@
 {
   "id": "terror",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "vampiro", "parecida": "mosquito" },
     { "palavra": "hombre lobo", "parecida": "perro" },
@@ -25,7 +25,7 @@
     { "palavra": "Frankenstein", "parecida": "robot" },
     { "palavra": "payaso asesino", "parecida": "payaso de fiesta" },
     { "palavra": "Samara", "parecida": "sirena" },
-    { "palavra": "exorcismo", "parecida": "limpia de huevo" },
+    { "palavra": "aparición", "parecida": "sombra" },
     { "palavra": "tablero ouija", "parecida": "teléfono" },
     { "palavra": "poltergeist", "parecida": "temblor" },
     { "palavra": "luna llena", "parecida": "eclipse" },
@@ -55,7 +55,7 @@
     { "palavra": "Drácula", "parecida": "mesero" },
     { "palavra": "ajo", "parecida": "cebolla" },
     { "palavra": "estaca", "parecida": "lápiz" },
-    { "palavra": "agua bendita", "parecida": "agua de coco" },
+    { "palavra": "bala de plata", "parecida": "moneda" },
     { "palavra": "cazafantasmas", "parecida": "detective" },
     { "palavra": "científico loco", "parecida": "profesor de química" },
     { "palavra": "Pie Grande", "parecida": "gorila" },

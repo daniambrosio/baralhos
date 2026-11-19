@@ -1,6 +1,6 @@
 {
   "id": "carnaval",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "samba" },
     { "texto": "sambar no pé" },
@@ -45,7 +45,7 @@
     { "texto": "folião cansado" },
     { "texto": "pular carnaval" },
     { "texto": "atrás do trio" },
-    { "texto": "dança da garrafa" },
+    { "texto": "estandarte do bloco" },
     { "texto": "mãozinha pra cima" },
     { "texto": "trenzinho" },
     { "texto": "bonecos de Olinda" },

@@ -1,6 +1,6 @@
 {
   "id": "dancas",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "salsa" },
     { "texto": "cumbia" },
@@ -50,7 +50,7 @@
     { "texto": "hula" },
     { "texto": "K-pop" },
     { "texto": "baile de TikTok" },
-    { "texto": "baile de lluvia" },
+    { "texto": "lambada" },
     { "texto": "coreografía" },
     { "texto": "baile de salón" },
     { "texto": "dar vueltas" },
@@ -58,7 +58,7 @@
     { "texto": "puntas de ballet" },
     { "texto": "guitarra imaginaria" },
     { "texto": "metalero" },
-    { "texto": "caderas de Shakira" },
+    { "texto": "mover las caderas" },
     { "texto": "DJ" },
     { "texto": "beatbox" },
     { "texto": "rap" },

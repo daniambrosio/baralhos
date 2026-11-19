@@ -1,6 +1,6 @@
 {
   "id": "dancas",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "samba" },
     { "texto": "forró" },
@@ -38,7 +38,7 @@
     { "texto": "passinho" },
     { "texto": "dança da cordinha" },
     { "texto": "dança do siri" },
-    { "texto": "dança da garrafa" },
+    { "texto": "gafieira" },
     { "texto": "Macarena" },
     { "texto": "Ragatanga" },
     { "texto": "Gangnam Style" },
@@ -49,7 +49,7 @@
     { "texto": "hula" },
     { "texto": "k-pop" },
     { "texto": "dancinha de TikTok" },
-    { "texto": "dança da chuva" },
+    { "texto": "polca" },
     { "texto": "coreografia" },
     { "texto": "dança de salão" },
     { "texto": "rodopio" },

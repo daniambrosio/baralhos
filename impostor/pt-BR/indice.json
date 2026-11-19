@@ -39,7 +39,7 @@
     },
     {
       "id": "lugares",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Lugares",
       "descricao": "Aeroporto, cachoeira, salão de beleza, delegacia. Cada um tenta provar que já esteve lá.",
       "capa": "capas/lugares.webp",
@@ -77,7 +77,7 @@
     },
     {
       "id": "fim-de-ano",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Natal e Ano-Novo",
       "descricao": "Ceia, amigo secreto, fogos e simpatia de virada. Para jogar com a família reunida no fim do ano.",
       "capa": "capas/fim-de-ano.webp",
@@ -89,7 +89,7 @@
     },
     {
       "id": "carnaval",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Carnaval",
       "descricao": "Bloco, trio elétrico, abadá e apuração. Quem nunca pulou carnaval vai se entregar rapidinho.",
       "capa": "capas/carnaval.webp",
@@ -101,7 +101,7 @@
     },
     {
       "id": "anos-90",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Anos 90",
       "descricao": "Tamagotchi, fita cassete, locadora e internet discada. Para quem lembra do barulho do modem.",
       "capa": "capas/anos-90.webp",
@@ -113,7 +113,7 @@
     },
     {
       "id": "terror",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Terror",
       "descricao": "Vampiros, lendas urbanas, porão e sexta-feira 13. Melhor jogar com a luz acesa.",
       "capa": "capas/terror.webp",
@@ -125,7 +125,7 @@
     },
     {
       "id": "brasil-raiz",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Brasil Raiz",
       "descricao": "Festa junina, folclore, Fusca e cafezinho. O Brasil que todo mundo reconhece.",
       "capa": "capas/brasil-raiz.webp",
@@ -149,7 +149,7 @@
     },
     {
       "id": "role",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Rolê",
       "descricao": "Balada, churrasco na laje, karaokê e racha da conta. Para a turma que sai junto.",
       "capa": "capas/role.webp",
@@ -197,7 +197,7 @@
     },
     {
       "id": "profissoes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Profissões",
       "descricao": "Do dentista ao astrólogo. Cada um descreve um trabalho que nunca fez.",
       "capa": "capas/profissoes.webp",
@@ -209,7 +209,7 @@
     },
     {
       "id": "esportes",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Esportes",
       "descricao": "Do vôlei ao VAR, do sumô ao pênalti. Para quem vive de esporte e para quem só finge.",
       "capa": "capas/esportes.webp",
@@ -221,7 +221,7 @@
     },
     {
       "id": "pascoa",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Páscoa",
       "descricao": "Ovo de colher, colomba, caça aos ovos e bacalhau. Difícil é falar de chocolate sem dar água na boca.",
       "capa": "capas/pascoa.webp",
@@ -233,7 +233,7 @@
     },
     {
       "id": "festa-junina",
-      "versao": 1,
+      "versao": 2,
       "titulo": "Festa Junina",
       "descricao": "Curau, pau de sebo, xaxado e noivo fujão. Arraiá para quem sabe a diferença entre curau e canjica.",
       "capa": "capas/festa-junina.webp",

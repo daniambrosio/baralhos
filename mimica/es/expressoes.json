@@ -1,6 +1,6 @@
 {
   "id": "expressoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "meter la pata" },
     { "texto": "tirar la toalla" },
@@ -17,7 +17,7 @@
     { "texto": "uña y carne" },
     { "texto": "rojo como tomate" },
     { "texto": "lágrimas de cocodrilo" },
-    { "texto": "oveja negra" },
+    { "texto": "ratón de biblioteca" },
     { "texto": "leña al fuego" },
     { "texto": "matar dos pájaros" },
     { "texto": "pájaro en mano" },

@@ -1,6 +1,6 @@
 {
   "id": "esportes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "fútbol" },
     { "texto": "penal" },
@@ -17,7 +17,7 @@
     { "texto": "vuelta olímpica" },
     { "texto": "levantar la copa" },
     { "texto": "cambiar camisetas" },
-    { "texto": "basquetbol" },
+    { "texto": "básquetbol" },
     { "texto": "clavada" },
     { "texto": "voleibol" },
     { "texto": "voleibol de playa" },
@@ -66,7 +66,7 @@
     { "texto": "paracaidismo" },
     { "texto": "escalada" },
     { "texto": "alpinismo" },
-    { "texto": "skate" },
+    { "texto": "patineta" },
     { "texto": "yoga" },
     { "texto": "abdominales" },
     { "texto": "sentadillas" },

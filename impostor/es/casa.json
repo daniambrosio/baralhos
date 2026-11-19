@@ -1,10 +1,10 @@
 {
   "id": "casa",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "licuadora", "parecida": "taladro" },
     { "palavra": "aspiradora", "parecida": "secadora de pelo" },
-    { "palavra": "plancha", "parecida": "plancha de pelo" },
+    { "palavra": "plancha", "parecida": "sandwichera" },
     { "palavra": "tabla de planchar", "parecida": "tabla de surf" },
     { "palavra": "lavadora", "parecida": "revolvedora de cemento" },
     { "palavra": "tendedero", "parecida": "cerca" },
@@ -60,7 +60,7 @@
     { "palavra": "maceta", "parecida": "pecera" },
     { "palavra": "frutero", "parecida": "canasta de picnic" },
     { "palavra": "portarretratos", "parecida": "espejo" },
-    { "palavra": "la bolsa de las bolsas", "parecida": "bolsa del súper" },
+    { "palavra": "la bolsa de las bolsas", "parecida": "cajón de los cables" },
     { "palavra": "pantuflas", "parecida": "chanclas" }
   ]
 }

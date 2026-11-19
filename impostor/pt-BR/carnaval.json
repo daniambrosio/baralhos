@@ -1,6 +1,6 @@
 {
   "id": "carnaval",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "palavra": "bloco de rua", "parecida": "passeata" },
     { "palavra": "trio elétrico", "parecida": "carro de som" },
@@ -56,11 +56,11 @@
     { "palavra": "enredo", "parecida": "roteiro" },
     { "palavra": "ensaio técnico", "parecida": "treino" },
     { "palavra": "concurso de fantasia", "parecida": "desfile de moda" },
-    { "palavra": "glitter na cara", "parecida": "pintura de guerra" },
+    { "palavra": "glitter na cara", "parecida": "maquiagem de palhaço" },
     { "palavra": "cordão de isolamento", "parecida": "corrimão" },
     { "palavra": "bloco infantil", "parecida": "festa de aniversário" },
     { "palavra": "fantasia de casal", "parecida": "roupa combinando" },
-    { "palavra": "camiseta molhada", "parecida": "toalha" },
+    { "palavra": "banho de mangueira", "parecida": "chuveiro" },
     { "palavra": "feriado de carnaval", "parecida": "feriado de Páscoa" }
   ]
 }

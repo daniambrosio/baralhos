@@ -1,6 +1,6 @@
 {
   "id": "pascoa",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "egg hunt" },
     { "texto": "Easter Bunny" },
@@ -36,7 +36,7 @@
     { "texto": "Easter parade" },
     { "texto": "ring church bells" },
     { "texto": "sing in choir" },
-    { "texto": "pray" },
+    { "texto": "jump in puddles" },
     { "texto": "light a candle" },
     { "texto": "wave palm leaves" },
     { "texto": "sunrise service" },

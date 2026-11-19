@@ -1,6 +1,6 @@
 {
   "id": "emocoes",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "feliz" },
     { "texto": "triste" },
@@ -87,10 +87,10 @@
     { "texto": "conta alta" },
     { "texto": "dieta furada" },
     { "texto": "roupa apertada" },
-    { "texto": "cabelo ruim" },
+    { "texto": "cabelo bagunçado" },
     { "texto": "foto feia" },
     { "texto": "áudio errado" },
-    { "texto": "cadê a namorada" },
+    { "texto": "mensagem visualizada" },
     { "texto": "primeiro dia" }
   ]
 }

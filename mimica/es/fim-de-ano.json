@@ -1,6 +1,6 @@
 {
   "id": "fim-de-ano",
-  "versao": 1,
+  "versao": 2,
   "itens": [
     { "texto": "Santa Claus" },
     { "texto": "jo jo jo" },
@@ -55,7 +55,7 @@
     { "texto": "bota navideña" },
     { "texto": "galletas de jengibre" },
     { "texto": "muñeco de nieve" },
-    { "texto": "guerra de bolas" },
+    { "texto": "guerra de nieve" },
     { "texto": "Grinch" },
     { "texto": "angelito" },
     { "texto": "cena de Nochebuena" },
@@ -87,7 +87,7 @@
     { "texto": "abuelo dormido" },
     { "texto": "comer sobras" },
     { "texto": "pastel de frutas" },
-    { "texto": "sidra" },
+    { "texto": "chocolate caliente" },
     { "texto": "bolsa de dulces" },
     { "texto": "cohetes" },
     { "texto": "billete en zapato" },
