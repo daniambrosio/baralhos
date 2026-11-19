@@ -64,6 +64,18 @@
       "relacionados": []
     },
     {
+      "id": "infantil",
+      "versao": 1,
+      "titulo": "Infantil",
+      "descricao": "Pollito, columpio, plastilina y osito de peluche. Palabras fáciles para jugar con los peques, que se delatan solitos.",
+      "capa": "capas/infantil.webp",
+      "categorias": ["familia", "facil"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
       "id": "fim-de-ano",
       "versao": 1,
       "titulo": "Navidad y Año Nuevo",
@@ -205,6 +217,18 @@
       "preco": "pago",
       "faixa": "livre",
       "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "pascoa",
+      "versao": 1,
+      "titulo": "Semana Santa y Pascua",
+      "descricao": "Domingo de Ramos, rosca de Pascua, búsqueda de huevos y vacaciones en la playa. Para jugar con la familia mientras se derrite el chocolate.",
+      "capa": "capas/pascoa.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 50,
       "relacionados": []
     }
   ]

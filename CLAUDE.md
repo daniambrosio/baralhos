@@ -17,7 +17,7 @@ ferramentas/           validar.py, capa.sh, formatar_indice.py
 cliente/               Pacote de download usado pelos apps (TypeScript, com testes). Ver cliente/README.md.
 ```
 
-Idiomas: `pt-BR`, `es` (espanhol latino-americano neutro), `en` (inglês americano). Os três têm os mesmos 16 baralhos por jogo, com os mesmos `id`s e capas.
+Idiomas: `pt-BR`, `es` (espanhol latino-americano neutro), `en` (inglês americano). Os três têm os mesmos baralhos, com os mesmos `id`s e capas, menos os que só fazem sentido num público (hoje só `festa-junina`, só em pt-BR).
 
 ## Comandos
 
@@ -47,4 +47,5 @@ O `cliente/` é a única cópia do código de download (decisão do Daniel, 17/1
 - `ferramentas/formatar_indice.py` reescreve um índice no formato da casa depois de editado por script.
 - Publicado em `https://baralhos.odanigeek.co`; publicar de novo com `~/projects/vps-ops/scripts/deploy-baralhos.sh` (detalhes no fim do `docs/MODELO.md`).
 - `es` e `en` escritos para o próprio público, não traduzidos: "Brasil Raiz" vira "De Nuestra Tierra" (tradições latino-americanas) e "Americana"; Anos 90, Natal, Carnaval e Expressões seguem a cultura de cada idioma. A categoria `brasil` se chama "Lo Nuestro" e "Hometown".
+- Segundo lote (18/11/2026): Infantil (grátis, nos dois jogos, sem embutir), Páscoa (pago, nos dois jogos; em es "Semana Santa y Pascua"), Famosos (pago, só Na Testa) e Festa Junina (pago, nos dois jogos, só pt-BR). Impostor fica com 5 grátis e 13 pagos (14 em pt-BR); Na Testa com 5 grátis e 14 pagos (15 em pt-BR).
 - Download nos apps: feito pelo `cliente/` deste repositório (índice ao abrir, `versao`, baralhos e capas em cache, idioma do aparelho), com cópias embutidas dos grátis só como reserva sem internet.

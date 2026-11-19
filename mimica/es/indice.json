@@ -64,6 +64,18 @@
       "relacionados": []
     },
     {
+      "id": "infantil",
+      "versao": 1,
+      "titulo": "Infantil",
+      "descricao": "Pingüino, soplar las velas, saltar en charcos y dar una voltereta. Los niños adivinan antes que los adultos.",
+      "capa": "capas/infantil.webp",
+      "categorias": ["familia", "facil"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
       "id": "fim-de-ano",
       "versao": 1,
       "titulo": "Navidad y Año Nuevo",
@@ -205,6 +217,30 @@
       "preco": "pago",
       "faixa": "livre",
       "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "famosos",
+      "versao": 1,
+      "titulo": "Famosos",
+      "descricao": "De El Chavo a Pikachu, de Frida Kahlo a Messi. Imitar a Mr. Bean es fácil; imitar a Mozart, no tanto.",
+      "capa": "capas/famosos.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "pascoa",
+      "versao": 1,
+      "titulo": "Semana Santa y Pascua",
+      "descricao": "Tejer palmas, buscar huevos, tocar la matraca y el tráfico de regreso de vacaciones. Toda la Semana Santa cabe en una ronda.",
+      "capa": "capas/pascoa.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 70,
       "relacionados": []
     }
   ]

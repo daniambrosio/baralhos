@@ -64,6 +64,18 @@
       "relacionados": []
     },
     {
+      "id": "infantil",
+      "versao": 1,
+      "titulo": "Infantil",
+      "descricao": "Escorregador, massinha, joaninha e bolha de sabão. Palavras simples para jogar com os pequenos, que às vezes ganham dos grandes.",
+      "capa": "capas/infantil.webp",
+      "categorias": ["familia", "facil"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
       "id": "fim-de-ano",
       "versao": 1,
       "titulo": "Natal e Ano-Novo",
@@ -202,6 +214,30 @@
       "descricao": "Do vôlei ao VAR, do sumô ao pênalti. Para quem vive de esporte e para quem só finge.",
       "capa": "capas/esportes.webp",
       "categorias": ["familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "pascoa",
+      "versao": 1,
+      "titulo": "Páscoa",
+      "descricao": "Ovo de colher, colomba, caça aos ovos e bacalhau. Difícil é falar de chocolate sem dar água na boca.",
+      "capa": "capas/pascoa.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 50,
+      "relacionados": []
+    },
+    {
+      "id": "festa-junina",
+      "versao": 1,
+      "titulo": "Festa Junina",
+      "descricao": "Curau, pau de sebo, xaxado e noivo fujão. Arraiá para quem sabe a diferença entre curau e canjica.",
+      "capa": "capas/festa-junina.webp",
+      "categorias": ["temporada", "festa", "brasil"],
       "preco": "pago",
       "faixa": "livre",
       "itens": 60,

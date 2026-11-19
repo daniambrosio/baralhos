@@ -64,6 +64,18 @@
       "relacionados": []
     },
     {
+      "id": "infantil",
+      "versao": 1,
+      "titulo": "Kids",
+      "descricao": "Puppy, sandbox, juice box and bubble bath. Easy words for little players, and the grown-ups still get caught.",
+      "capa": "capas/infantil.webp",
+      "categorias": ["familia", "facil"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 60,
+      "relacionados": []
+    },
+    {
       "id": "fim-de-ano",
       "versao": 1,
       "titulo": "Holidays",
@@ -205,6 +217,18 @@
       "preco": "pago",
       "faixa": "livre",
       "itens": 60,
+      "relacionados": []
+    },
+    {
+      "id": "pascoa",
+      "versao": 1,
+      "titulo": "Easter",
+      "descricao": "Jelly beans, egg hunt, Peeps and Sunday best. Somebody is hiding more than eggs.",
+      "capa": "capas/pascoa.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 50,
       "relacionados": []
     }
   ]

@@ -64,6 +64,18 @@
       "relacionados": []
     },
     {
+      "id": "infantil",
+      "versao": 1,
+      "titulo": "Infantil",
+      "descricao": "Pular corda, avião, dinossauro e escovar os dentes. Mímica para criança, com adulto pagando mico junto.",
+      "capa": "capas/infantil.webp",
+      "categorias": ["familia", "facil"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
       "id": "fim-de-ano",
       "versao": 1,
       "titulo": "Natal e Ano-Novo",
@@ -202,6 +214,42 @@
       "descricao": "Axolote, narval, louva-a-deus e diabo-da-tasmânia. Para quem já zerou o baralho de animais.",
       "capa": "capas/animais-dificeis.webp",
       "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "famosos",
+      "versao": 1,
+      "titulo": "Famosos",
+      "descricao": "Do Bob Esponja ao Einstein, da Cinderela à Rebeca Andrade. Todo mundo sabe quem é; o difícil é imitar.",
+      "capa": "capas/famosos.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "pascoa",
+      "versao": 1,
+      "titulo": "Páscoa",
+      "descricao": "Caça aos ovos, orelhas de coelho, procissão e bigode de chocolate. Do almoço de domingo ao último bombom.",
+      "capa": "capas/pascoa.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 70,
+      "relacionados": []
+    },
+    {
+      "id": "festa-junina",
+      "versao": 1,
+      "titulo": "Festa Junina",
+      "descricao": "Olha a chuva, pau de sebo, maçã do amor e noivo fujão. Arrasta-pé na sala, sem precisar de fogueira.",
+      "capa": "capas/festa-junina.webp",
+      "categorias": ["temporada", "festa", "brasil"],
       "preco": "pago",
       "faixa": "livre",
       "itens": 90,

@@ -64,6 +64,18 @@
       "relacionados": []
     },
     {
+      "id": "infantil",
+      "versao": 1,
+      "titulo": "Kids",
+      "descricao": "Blow bubbles, roller skates, dinosaur and peekaboo. Simple enough for a five-year-old, silly enough for everyone.",
+      "capa": "capas/infantil.webp",
+      "categorias": ["familia", "facil"],
+      "preco": "gratis",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
       "id": "fim-de-ano",
       "versao": 1,
       "titulo": "Holidays",
@@ -205,6 +217,30 @@
       "preco": "pago",
       "faixa": "livre",
       "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "famosos",
+      "versao": 1,
+      "titulo": "Famous Faces",
+      "descricao": "SpongeBob, Abraham Lincoln, Taylor Swift and Darth Vader. Try acting out a legend without saying a word.",
+      "capa": "capas/famosos.webp",
+      "categorias": ["festa"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 90,
+      "relacionados": []
+    },
+    {
+      "id": "pascoa",
+      "versao": 1,
+      "titulo": "Easter",
+      "descricao": "Hop like a bunny, dye eggs, wave palm leaves and step on an egg. Spring has never been this silly.",
+      "capa": "capas/pascoa.webp",
+      "categorias": ["temporada", "familia"],
+      "preco": "pago",
+      "faixa": "livre",
+      "itens": 70,
       "relacionados": []
     }
   ]
